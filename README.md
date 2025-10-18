@@ -52,7 +52,6 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **pdf** | Extract content from PDFs, split/merge documents, or create new ones | [Source](https://github.com/anthropics/skills/tree/main/document-skills/pdf) |
 | **pptx** | Generate and edit PowerPoint presentations | [Source](https://github.com/anthropics/skills/tree/main/document-skills/pptx) |
 | **xlsx** | Manipulate Excel files, formulas, tables, and charts | [Source](https://github.com/anthropics/skills/tree/main/document-skills/xlsx) |
-| **markdown** | Format and parse Markdown content | [Source](https://github.com/BehiSecc/awesome-claude-skills#document-skills) |
 
 ---
 
@@ -86,9 +85,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 
 | Name | Description | Link |
 |------|-------------|------|
-| **csv-analysis** | Analyze and summarize CSV data | [Source](https://github.com/BehiSecc/awesome-claude-skills#data--analysis) |
 | **csv-data-summarizer** | Generate statistics and charts from CSVs | [Source](https://github.com/coffeefuelbump/csv-data-summarizer-claude-skill) |
-| **json-parser** | Parse and format JSON data | [Source](https://github.com/BehiSecc/awesome-claude-skills#data--analysis) |
 
 ---
 
@@ -96,9 +93,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 
 | Name | Description | Link |
 |------|-------------|------|
-| **research-assistant** | Perform multi-step online research | [Source](https://github.com/BehiSecc/awesome-claude-skills#writing--research) |
-| **summarization** | Summarize long documents or reports | [Source](https://github.com/BehiSecc/awesome-claude-skills#writing--research) |
-| **article-extractor** | Extract full content from web articles | [Source](https://github.com/BehiSecc/awesome-claude-skills#writing--research) |
+| **article-extractor** | Extract full content from web articles | [Source](https://github.com/michalparkola/tapestry-skills-for-claude-code/tree/main/article-extractor) |
 | **Content Research Writer** | Research and refine written content with feedback | [Source](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/content-research-writer) |
 | **internal-comms** | Draft formal internal comms and reports | [Source](https://github.com/anthropics/skills/tree/main/internal-comms) |
 
@@ -108,8 +103,8 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 
 | Name | Description | Link |
 |------|-------------|------|
-| **tapestry** | Build a linked knowledge graph from documents | [Source](https://github.com/BehiSecc/awesome-claude-skills#learning--knowledge) |
-| **ship-learn-next** | Recommend next steps based on feedback loops | [Source](https://github.com/BehiSecc/awesome-claude-skills#learning--knowledge) |
+| **tapestry** | Build a linked knowledge graph from documents | [Source](https://github.com/michalparkola/tapestry-skills-for-claude-code/tree/main/tapestry) |
+| **ship-learn-next** | Recommend next steps based on feedback loops | [Source](https://github.com/michalparkola/tapestry-skills-for-claude-code/tree/main/ship-learn-next) |
 
 ---
 
@@ -117,10 +112,8 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 
 | Name | Description | Link |
 |------|-------------|------|
-| **youtube-transcript** | Summarize YouTube transcripts | [Source](https://github.com/BehiSecc/awesome-claude-skills#media--content) |
-| **audio-transcription** | Transcribe audio files | [Source](https://github.com/BehiSecc/awesome-claude-skills#media--content) |
-| **image-captioning** | Generate captions for images | [Source](https://github.com/BehiSecc/awesome-claude-skills#media--content) |
-| **claude-epub-skill** | Parse and analyze EPUB eBooks | [Source](https://github.com/BehiSecc/awesome-claude-skills#media--content) |
+| **youtube-transcript** | Summarize YouTube transcripts | [Source](https://github.com/michalparkola/tapestry-skills-for-claude-code/tree/main/youtube-transcript) |
+| **claude-epub-skill** | Parse and analyze EPUB eBooks | [Source](https://github.com/smerchek/claude-epub-skill) |
 | **Image Enhancer** | Improve resolution and clarity of screenshots | [Source](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/image-enhancer) |
 | **Video Downloader** | Download YouTube videos for use in Claude | [Source](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/video-downloader) |
 
@@ -130,9 +123,6 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 
 | Name | Description | Link |
 |------|-------------|------|
-| **git-pushing** | Automate git commands from Claude | [Source](https://github.com/BehiSecc/awesome-claude-skills#collaboration--project-management) |
-| **review-implementing** | Review code implementation plans | [Source](https://github.com/BehiSecc/awesome-claude-skills#collaboration--project-management) |
-| **test-fixing** | Suggest fixes for failing tests | [Source](https://github.com/BehiSecc/awesome-claude-skills#collaboration--project-management) |
 | **Meeting Insights Analyzer** | Analyze meeting dynamics and communication patterns | [Source](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/meeting-insights-analyzer) |
 | **Notion Integration Skills** | Official Notion connectors for Claude | [Source](https://notiondevs.notion.site/Notion-Skills-for-Claude-28da4445d27180c7af1df7d8615723d0) |
 
@@ -151,10 +141,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 
 | Name | Description | Link |
 |------|-------------|------|
-| **file-manager** | Read/write local or cloud files | [Source](https://github.com/BehiSecc/awesome-claude-skills#utility--automation) |
 | **file-organizer** | Clean up file structures, rename documents | [Source](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/file-organizer) |
-| **task-runner** | Run multi-step skill chains | [Source](https://github.com/BehiSecc/awesome-claude-skills#utility--automation) |
-| **email-parser** | Extract structured info from emails | [Source](https://github.com/BehiSecc/awesome-claude-skills#utility--automation) |
 | **invoice-organizer** | Parse and categorize invoices | [Source](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/invoice-organizer) |
 | **raffle-winner-picker** | Pick winners using secure randomness | [Source](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/raffle-winner-picker) |
 | **skill-creator** | Build your own skill interactively | [Source](https://github.com/anthropics/skills/tree/main/skill-creator) |
