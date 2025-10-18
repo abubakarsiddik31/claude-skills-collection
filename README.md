@@ -73,10 +73,6 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 |------|-------------|------|
 | **artifacts-builder** | Generate clean HTML/CSS/React UI components | [Source](https://github.com/anthropics/skills/tree/main/artifacts-builder) |
 | **MCP Server** | Build Claude-compatible API connectors | [Source](https://github.com/anthropics/skills/tree/main/mcp-builder) |
-| **code-execution** | Run code snippets inside Claude | [Source](https://github.com/BehiSecc/awesome-claude-skills#development--code-tools) |
-| **code-review** | Review pull requests and suggest improvements | [Source](https://github.com/BehiSecc/awesome-claude-skills#development--code-tools) |
-| **code-explanation** | Explain how code works in plain language | [Source](https://github.com/BehiSecc/awesome-claude-skills#development--code-tools) |
-| **test-generation** | Generate unit and integration tests from code | [Source](https://github.com/BehiSecc/awesome-claude-skills#development--code-tools) |
 | **Changelog Generator** | Create changelogs from commit history | [Source](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/changelog-generator) |
 
 ---
