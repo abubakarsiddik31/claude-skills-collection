@@ -13,16 +13,16 @@ This repository gathers and organizes all publicly available Claude Skills, incl
 
 - [What Are Claude Skills?](#what-are-claude-skills)
 - [Categories](#categories)
-  - [📄 Document Skills](#document-skills)
-  - [🎨 Creative & Design](#creative--design)
-  - [💻 Development & Code Tools](#development--code-tools)
-  - [📊 Data & Analysis](#data--analysis)
-  - [📝 Writing & Research](#writing--research)
-  - [📚 Learning & Knowledge](#learning--knowledge)
-  - [🎥 Media & Content](#media--content)
-  - [🤝 Collaboration & Project Management](#collaboration--project-management)
-  - [🔐 Security & Testing](#security--testing)
-  - [⚙️ Utility & Automation](#utility--automation)
+  - [Document Skills](#document-skills)
+  - [Creative & Design](#creative--design)
+  - [Development & Code Tools](#development--code-tools)
+  - [Data & Analysis](#data--analysis)
+  - [Writing & Research](#writing--research)
+  - [Learning & Knowledge](#learning--knowledge)
+  - [Media & Content](#media--content)
+  - [Collaboration & Project Management](#collaboration--project-management)
+  - [Security & Testing](#security--testing)
+  - [Utility & Automation](#utility--automation)
 - [Getting Started](#getting-started)
 - [Contributing](#contributing)
 - [License](#license)
@@ -44,7 +44,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 
 ---
 
-## 📄 Document Skills
+## Document Skills
 
 | Name | Description | Link |
 |------|-------------|------|
@@ -55,7 +55,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 
 ---
 
-## 🎨 Creative & Design
+## Creative & Design
 
 | Name | Description | Link |
 |------|-------------|------|
@@ -67,7 +67,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 
 ---
 
-## 💻 Development & Code Tools
+## Development & Code Tools
 
 | Name | Description | Link |
 |------|-------------|------|
@@ -81,10 +81,9 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **finishing-a-development-branch** | Complete development branches with testing and review flow | [Source](https://github.com/obra/superpowers/tree/main/skills/finishing-a-development-branch) |
 | **preserving-productive-tensions** | Manage architectural decisions by preserving competing viewpoints to balance innovation and stability | [Source](https://github.com/obra/superpowers-skills/tree/main/skills/architecture/preserving-productive-tensions) |
 
-
 ---
 
-## 📊 Data & Analysis
+## Data & Analysis
 
 | Name | Description | Link |
 |------|-------------|------|
@@ -93,7 +92,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 
 ---
 
-## 📝 Writing & Research
+## Writing & Research
 
 | Name | Description | Link |
 |------|-------------|------|
@@ -106,7 +105,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 
 ---
 
-## 📚 Learning & Knowledge
+## Learning & Knowledge
 
 | Name | Description | Link |
 |------|-------------|------|
@@ -119,12 +118,11 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **meta-pattern-recognition** | Identify patterns across domains to uncover universal principles | [Source](https://github.com/obra/superpowers-skills/tree/main/skills/problem-solving/meta-pattern-recognition) |
 | **scale-game** | Stress-test ideas at extreme scales to expose hidden weaknesses or truths | [Source](https://github.com/obra/superpowers-skills/tree/main/skills/problem-solving/scale-game) |
 | **simplification-cascades** | Reduce complexity by discovering insights that simplify multiple elements at once | [Source](https://github.com/obra/superpowers-skills/tree/main/skills/problem-solving/simplification-cascades) |
-| **tracing-knowledge-lineages** | Track how ideas evolve across iterations and influences | [Source](https://github.com/obra/superpowers-skills/tree/main/skills/research/tracing-knowledge-lineages) |
-
+| **tracing-knowledge-lineages** | Track how ideas evolve across iterations and influences | [Source](https://github.com/obra/superpowers/tree/main/skills/research/tracing-knowledge-lineages) |
 
 ---
 
-## 🎥 Media & Content
+## Media & Content
 
 | Name | Description | Link |
 |------|-------------|------|
@@ -135,7 +133,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 
 ---
 
-## 🤝 Collaboration & Project Management
+## Collaboration & Project Management
 
 | Name | Description | Link |
 |------|-------------|------|
@@ -147,10 +145,9 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **dispatching-parallel-agents** | Coordinate multiple Claude subagents on shared tasks | [Source](https://github.com/obra/superpowers/tree/main/skills/dispatching-parallel-agents) |
 | **remembering-conversations** | Recall facts, insights, and context from past Claude Code sessions | [Source](https://github.com/obra/superpowers-skills/tree/main/skills/collaboration/remembering-conversations) |
 
-
 ---
 
-## 🔐 Security & Testing
+## Security & Testing
 
 | Name | Description | Link |
 |------|-------------|------|
@@ -165,7 +162,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 
 ---
 
-## ⚙️ Utility & Automation
+## Utility & Automation
 
 | Name | Description | Link |
 |------|-------------|------|
@@ -177,7 +174,6 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **using-superpowers** | Automate Superpowers workflows and validation tasks | [Source](https://github.com/obra/superpowers/tree/main/skills/using-superpowers) |
 | **gardening-skills-wiki** | Maintain the skills wiki, ensuring naming consistency and metadata quality | [Source](https://github.com/obra/superpowers-skills/tree/main/skills/meta/gardening-skills-wiki) |
 | **pulling-updates-from-skills-repository** | Sync and pull the latest skill updates from repositories | [Source](https://github.com/obra/superpowers-skills/tree/main/skills/meta/pulling-updates-from-skills-repository) |
-
 
 ---
 
@@ -207,5 +203,3 @@ Open a pull request or submit your repo link in an issue with:
 
 This repo lists and links to skills under various licenses.  
 Please refer to each linked repository for license terms.
-
----
