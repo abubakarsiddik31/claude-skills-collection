@@ -162,7 +162,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **testing-skills-with-subagents** | Verify new skills using subagents and test cycles | [Source](https://github.com/obra/superpowers/tree/main/skills/testing-skills-with-subagents) |
 | **verification-before-completion** | Run verification checks before closing tasks | [Source](https://github.com/obra/superpowers/tree/main/skills/verification-before-completion) |
 | **condition-based-waiting** | Use logical conditions to control test flow timing | [Source](https://github.com/obra/superpowers/tree/main/skills/condition-based-waiting) |
-
+| **MalPromptSentinel-CC-Skill** | MalPromptSentinel (MPS) detects malicious prompts in uploaded files before Claude processes them. [Source] (https://github.com/StrategicPromptArchitect-AI/MalPromptSentinel-CC-Skill)
 ---
 
 ## ⚙️ Utility & Automation
