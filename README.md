@@ -64,6 +64,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **slack-gif-creator** | Generate Slack-optimized animated GIFs | [Source](https://github.com/anthropics/skills/tree/main/slack-gif-creator) |
 | **brand-guidelines** | Apply company branding to outputs | [Source](https://github.com/anthropics/skills/tree/main/brand-guidelines) |
 | **theme-factory** | Create and apply visual themes for documents | [Source](https://github.com/anthropics/skills/tree/main/theme-factory) |
+| **nano-banana-image-generation** | Create images using Nano Banana Pro | [Source](https://github.com/livelabs-ventures/nano-skills/tree/main/skills/nano-image-generator) |
 
 ---
 
