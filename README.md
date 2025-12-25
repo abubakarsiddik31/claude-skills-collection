@@ -17,6 +17,7 @@ This repository gathers and organizes all publicly available Claude Skills, incl
   - [🎨 Creative & Design](#creative--design)
   - [💻 Development & Code Tools](#development--code-tools)
   - [📊 Data & Analysis](#data--analysis)
+  - [🔬 Scientific & Research Tools](#scientific--research-tools)
   - [📝 Writing & Research](#writing--research)
   - [📚 Learning & Knowledge](#learning--knowledge)
   - [🎥 Media & Content](#media--content)
@@ -52,6 +53,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **pdf** | Extract content from PDFs, split/merge documents, or create new ones | [Source](https://github.com/anthropics/skills/tree/main/document-skills/pdf) |
 | **pptx** | Generate and edit PowerPoint presentations | [Source](https://github.com/anthropics/skills/tree/main/document-skills/pptx) |
 | **xlsx** | Manipulate Excel files, formulas, tables, and charts | [Source](https://github.com/anthropics/skills/tree/main/document-skills/xlsx) |
+| **revealjs-skill** | Generate polished, professional presentations using the Reveal.js HTML presentation framework | [Source](https://github.com/ryanbbrown/revealjs-skill/tree/main) |
 
 ---
 
@@ -81,6 +83,12 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **executing-plans** | Execute structured plans with checkpoints and verification steps | [Source](https://github.com/obra/superpowers/tree/main/skills/executing-plans) |
 | **finishing-a-development-branch** | Complete development branches with testing and review flow | [Source](https://github.com/obra/superpowers/tree/main/skills/finishing-a-development-branch) |
 | **preserving-productive-tensions** | Manage architectural decisions by preserving competing viewpoints to balance innovation and stability | [Source](https://github.com/obra/superpowers-skills/tree/main/skills/architecture/preserving-productive-tensions) |
+| **web-artifacts-builder** | Create elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui) | [Source](https://github.com/anthropics/skills/tree/main/skills/web-artifacts-builder) |
+| **pypict-claude-skill** | Design comprehensive test cases using PICT (Pairwise Independent Combinatorial Testing) for optimized test suites | [Source](https://github.com/omkamal/pypict-claude-skill) |
+| **aws-skills** | AWS development with CDK best practices, cost optimization, and serverless/event-driven architecture patterns | [Source](https://github.com/zxkane/aws-skills) |
+| **claude-starter** | Production-ready Claude Code configuration template with 40 auto-activating skills and TOON format support | [Source](https://github.com/raintree-technology/claude-starter) |
+| **move-code-quality-skill** | Analyzes Move language packages against the official Move Book Code Quality Checklist | [Source](https://github.com/1NickPappas/move-code-quality-skill) |
+| **claude-code-terminal-title** | Gives each Claude Code terminal window a dynamic title describing the work being done | [Source](https://github.com/bluzername/claude-code-terminal-title) |
 
 
 ---
@@ -91,6 +99,16 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 |------|-------------|------|
 | **csv-data-summarizer** | Generate statistics and charts from CSVs | [Source](https://github.com/coffeefuelbump/csv-data-summarizer-claude-skill) |
 | **root-cause-tracing** | Trace and diagnose the source of data or logic errors | [Source](https://github.com/obra/superpowers/tree/main/skills/root-cause-tracing) |
+| **postgres** | Execute safe read-only SQL queries against PostgreSQL databases with multi-connection support | [Source](https://github.com/sanjay3290/ai-skills/tree/main/skills/postgres) |
+
+---
+
+## 🔬 Scientific & Research Tools
+
+| Name | Description | Link |
+|------|-------------|------|
+| **claude-scientific-skills** | 125+ scientific skills for bioinformatics, cheminformatics, clinical research, and machine learning | [Source](https://github.com/K-Dense-AI/claude-scientific-skills) |
+| **materials-simulation-skills** | Agent skills for computational materials science: numerical stability, time-stepping, linear solvers, and simulation validation | [Source](https://github.com/HeshamFS/materials-simulation-skills) |
 
 ---
 
@@ -104,6 +122,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **writing-plans** | Create structured written plans with clear milestones | [Source](https://github.com/obra/superpowers/tree/main/skills/writing-plans) |
 | **writing-skills** | Enhance instructional and technical writing quality | [Source](https://github.com/obra/superpowers/tree/main/skills/writing-skills) |
 | **brainstorming** | Facilitate creative idea generation sessions | [Source](https://github.com/obra/superpowers/tree/main/skills/brainstorming) |
+| **family-history-research** | Provides assistance with planning family history and genealogy research projects | [Source](https://github.com/emaynard/claude-family-history-research-skill) |
 
 ---
 
@@ -133,6 +152,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **claude-epub-skill** | Parse and analyze EPUB eBooks | [Source](https://github.com/smerchek/claude-epub-skill) |
 | **Image Enhancer** | Improve resolution and clarity of screenshots | [Source](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/image-enhancer) |
 | **Video Downloader** | Download YouTube videos for use in Claude | [Source](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/video-downloader) |
+| **imagen** | Generate images using Google Gemini's image generation API for UI mockups, icons, and visual assets | [Source](https://github.com/sanjay3290/ai-skills/tree/main/skills/imagen) |
 
 ---
 
@@ -147,6 +167,11 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **requesting-code-review** | Request and manage structured code reviews | [Source](https://github.com/obra/superpowers/tree/main/skills/requesting-code-review) |
 | **dispatching-parallel-agents** | Coordinate multiple Claude subagents on shared tasks | [Source](https://github.com/obra/superpowers/tree/main/skills/dispatching-parallel-agents) |
 | **remembering-conversations** | Recall facts, insights, and context from past Claude Code sessions | [Source](https://github.com/obra/superpowers-skills/tree/main/skills/collaboration/remembering-conversations) |
+| **git-pushing** | Automate git operations and repository interactions | [Source](https://github.com/mhattingpete/claude-skills-marketplace/tree/main/engineering-workflow-plugin/skills/git-pushing) |
+| **linear-claude-skill** | Manage Linear issues, projects, and teams with MCP tools and GraphQL fallbacks | [Source](https://github.com/wrsmith108/linear-claude-skill) |
+| **linear-cli-skill** | A skill teaching Claude how to use linear-CLI as an alternative to Linear MCP | [Source](https://github.com/Valian/linear-cli-skill) |
+| **review-implementing** | Evaluate code implementation plans and align with specs | [Source](https://github.com/mhattingpete/claude-skills-marketplace/tree/main/engineering-workflow-plugin/skills/review-implementing) |
+| **test-fixing** | Detect failing tests and propose patches or fixes | [Source](https://github.com/mhattingpete/claude-skills-marketplace/tree/main/engineering-workflow-plugin/skills/test-fixing) |
 
 
 ---
@@ -163,6 +188,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **testing-skills-with-subagents** | Verify new skills using subagents and test cycles | [Source](https://github.com/obra/superpowers/tree/main/skills/testing-skills-with-subagents) |
 | **verification-before-completion** | Run verification checks before closing tasks | [Source](https://github.com/obra/superpowers/tree/main/skills/verification-before-completion) |
 | **condition-based-waiting** | Use logical conditions to control test flow timing | [Source](https://github.com/obra/superpowers/tree/main/skills/condition-based-waiting) |
+| **varlock-claude-skill** | Secure environment variable management ensuring secrets never appear in sessions, terminals, logs, or git commits | [Source](https://github.com/wrsmith108/varlock-claude-skill) |
 
 ---
 
