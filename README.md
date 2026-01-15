@@ -180,6 +180,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 
 | Name | Description | Link |
 |------|-------------|------|
+| **Trail of Bits Security Skills** | Security skills for static analysis with CodeQL/Semgrep, variant analysis, code auditing, and fix verification | [Source](https://github.com/trailofbits/skills) |
 | **webapp-testing** | UI test automation using Playwright | [Source](https://github.com/anthropics/skills/tree/main/webapp-testing) |
 | **ffuf_claude_skill** | Fuzz test web apps with FFUF + Claude | [Source](https://github.com/jthack/ffuf_claude_skill) |
 | **defense-in-depth** | Implement multi-layered testing and security best practices | [Source](https://github.com/obra/superpowers/tree/main/skills/defense-in-depth) |
