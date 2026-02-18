@@ -25,6 +25,7 @@ This repository gathers and organizes all publicly available Claude Skills, incl
   - [🔐 Security & Testing](#security--testing)
   - [⚙️ Utility & Automation](#utility--automation)
 - [Getting Started](#getting-started)
+- [Skill Quality Standards & Template](#skill-quality-standards--template)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -217,6 +218,41 @@ To use a skill:
 2. Enable Code Execution and Skill loading in Claude.
 3. Upload the skill folder (or link to a Git repo with an `SKILL.md`).
 4. Ask Claude to activate or use the skill!
+
+---
+
+## Skill Quality Standards & Template
+
+Writing a great skill starts with a well-structured `SKILL.md` file. [AgentSkills.io](https://agentskills.io) provides the canonical specification for the Claude Skills format, including validation rules and a detailed checklist. Anthropic also publishes best practices for skill authoring at [platform.claude.com](https://platform.claude.com).
+
+### Minimal SKILL.md Template
+
+Every skill should include a `SKILL.md` with proper YAML frontmatter at the top:
+
+```yaml
+---
+name: my-skill-name
+description: |
+  Generates weekly status reports from project data.
+  Use when the user asks for a summary of recent activity.
+---
+```
+
+The body of `SKILL.md` (below the frontmatter) contains the instructions Claude follows when the skill is activated.
+
+### Key Quality Criteria
+
+- **name** -- Use `kebab-case`, 1-64 characters (e.g., `csv-data-summarizer`, not `CSV Data Summarizer`).
+- **description** -- Write in third person. State *what* the skill does and *when* to use it. Keep it under 300 characters.
+- **Body length** -- Keep the instruction body under 500 lines. Long skills should be split into focused sub-skills.
+- **Progressive disclosure** -- Start with the most common usage, then cover edge cases. Claude reads top-down, so put the critical path first.
+- **No secrets in source** -- Never embed API keys, tokens, or credentials in `SKILL.md`. Use environment variables or MCP configuration instead.
+
+### Reference Implementations
+
+- [anthropics/skills](https://github.com/anthropics/skills) -- Anthropic's official skill repository with production-quality examples.
+- [AgentSkills.io Validation Checklist](https://agentskills.io) -- Use this to validate your `SKILL.md` before publishing.
+- [Anthropic Skill Authoring Guide](https://platform.claude.com) -- Official best practices from Anthropic.
 
 ---
 
