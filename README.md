@@ -68,6 +68,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **brand-guidelines** | Apply company branding to outputs | [Source](https://github.com/anthropics/skills/tree/main/brand-guidelines) |
 | **theme-factory** | Create and apply visual themes for documents | [Source](https://github.com/anthropics/skills/tree/main/theme-factory) |
 | **nano-banana-image-generation** | Create images using Nano Banana Pro | [Source](https://github.com/livelabs-ventures/nano-skills/tree/main/skills/nano-image-generator) |
+| **oiloil-ui-ux-guide** | Modern clean UI/UX guidance and review skill with CRAP principles, task-first UX, and actionable P0/P1/P2 design review checklists | [Source](https://github.com/oil-oil/oiloil-ui-ux-guide) |
 
 ---
 
