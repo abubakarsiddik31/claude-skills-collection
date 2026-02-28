@@ -102,6 +102,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **csv-data-summarizer** | Generate statistics and charts from CSVs | [Source](https://github.com/coffeefuelbump/csv-data-summarizer-claude-skill) |
 | **root-cause-tracing** | Trace and diagnose the source of data or logic errors | [Source](https://github.com/obra/superpowers/tree/main/skills/root-cause-tracing) |
 | **postgres** | Execute safe read-only SQL queries against PostgreSQL databases with multi-connection support | [Source](https://github.com/sanjay3290/ai-skills/tree/main/skills/postgres) |
+| **philidor** | DeFi vault risk scores, yield comparison, portfolio analysis, and oracle monitoring across Morpho, Yearn, Aave, Beefy, and Spark | [Source](https://github.com/zkoranges/philidor-io/tree/main/packages/openclaw-skill) |
 
 ---
 
