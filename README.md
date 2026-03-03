@@ -75,6 +75,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 
 | Name | Description | Link |
 |------|-------------|------|
+| **skillboss-ai-gateway** | Access 100+ AI services through unified OpenAI-compatible API. LLMs (Claude, GPT, Gemini), image gen (DALL-E, Midjourney, Flux), video (Runway, Kling), audio (ElevenLabs). One API key. | [Source](https://github.com/heeyo-life/skillboss-skills) |
 | **artifacts-builder** | Generate clean HTML/CSS/React UI components | [Source](https://github.com/anthropics/skills/tree/main/artifacts-builder) |
 | **MCP Server** | Build Claude-compatible API connectors | [Source](https://github.com/anthropics/skills/tree/main/mcp-builder) |
 | **Changelog Generator** | Create changelogs from commit history | [Source](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/changelog-generator) |
