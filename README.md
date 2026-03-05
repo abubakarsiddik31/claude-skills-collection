@@ -174,6 +174,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **linear-cli-skill** | A skill teaching Claude how to use linear-CLI as an alternative to Linear MCP | [Source](https://github.com/Valian/linear-cli-skill) |
 | **review-implementing** | Evaluate code implementation plans and align with specs | [Source](https://github.com/mhattingpete/claude-skills-marketplace/tree/main/engineering-workflow-plugin/skills/review-implementing) |
 | **test-fixing** | Detect failing tests and propose patches or fixes | [Source](https://github.com/mhattingpete/claude-skills-marketplace/tree/main/engineering-workflow-plugin/skills/test-fixing) |
+| **product-manager-skills** | Senior PM agent with 6 knowledge domains, 12 templates, 30+ frameworks covering discovery, strategy, delivery, SaaS metrics, PM career coaching, and AI product craft | [Source](https://github.com/Digidai/product-manager-skills) |
 
 
 ---
