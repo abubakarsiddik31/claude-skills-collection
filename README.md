@@ -91,6 +91,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **move-code-quality-skill** | Analyzes Move language packages against the official Move Book Code Quality Checklist | [Source](https://github.com/1NickPappas/move-code-quality-skill) |
 | **claude-code-terminal-title** | Gives each Claude Code terminal window a dynamic title describing the work being done | [Source](https://github.com/bluzername/claude-code-terminal-title) |
 | **audit-website** | Cli website auditing tool for seo, performance, security and 140+ other rules | [Source](https://github.com/squirrelscan/skills/tree/main) |
+| **agent-cards-skill** | Manage prepaid virtual Visa cards for AI agents. Create cards, check balances, view credentials, close cards, and get support via MCP tools. | [Source](https://github.com/agent-cards/skill) |
 
 
 ---
