@@ -168,6 +168,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **receiving-code-review** | Process and apply code review feedback | [Source](https://github.com/obra/superpowers/tree/main/skills/receiving-code-review) |
 | **requesting-code-review** | Request and manage structured code reviews | [Source](https://github.com/obra/superpowers/tree/main/skills/requesting-code-review) |
 | **dispatching-parallel-agents** | Coordinate multiple Claude subagents on shared tasks | [Source](https://github.com/obra/superpowers/tree/main/skills/dispatching-parallel-agents) |
+| **spawn-tasks** | Spawn parallel Claude Code sessions from confirmed subtasks, each in an isolated git worktree with full task context | [Source](https://github.com/theradengai/spawn-tasks) |
 | **remembering-conversations** | Recall facts, insights, and context from past Claude Code sessions | [Source](https://github.com/obra/superpowers-skills/tree/main/skills/collaboration/remembering-conversations) |
 | **git-pushing** | Automate git operations and repository interactions | [Source](https://github.com/mhattingpete/claude-skills-marketplace/tree/main/engineering-workflow-plugin/skills/git-pushing) |
 | **linear-claude-skill** | Manage Linear issues, projects, and teams with MCP tools and GraphQL fallbacks | [Source](https://github.com/wrsmith108/linear-claude-skill) |
