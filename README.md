@@ -9,6 +9,28 @@ This repository gathers and organizes all publicly available Claude Skills, incl
 
 ---
 
+## 📈 Overview
+
+**168 skills** across **13 categories**:
+
+| Category | Skills |
+|----------|--------|
+| 💻 Development & Code Tools | 45 |
+| 📣 Marketing & SEO | 19 |
+| 📝 Writing & Research | 17 |
+| 🤝 Collaboration & Project Management | 14 |
+| ⚙️ Utility & Automation | 14 |
+| 🔐 Security & Testing | 13 |
+| 📚 Learning & Knowledge | 11 |
+| 🎨 Creative & Design | 8 |
+| 💼 Career & Job Search | 6 |
+| 🎥 Media & Content | 6 |
+| 🔬 Scientific & Research Tools | 5 |
+| 📊 Data & Analysis | 5 |
+| 📄 Document Skills | 5 |
+
+---
+
 ## 📚 Table of Contents
 
 - [What Are Claude Skills?](#what-are-claude-skills)
@@ -52,10 +74,10 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 
 | Name | Description | Link |
 |------|-------------|------|
-| **docx** | Create and edit Microsoft Word documents with formatting, comments, and tracked changes | [Source](https://github.com/anthropics/skills/tree/main/document-skills/docx) |
-| **pdf** | Extract content from PDFs, split/merge documents, or create new ones | [Source](https://github.com/anthropics/skills/tree/main/document-skills/pdf) |
-| **pptx** | Generate and edit PowerPoint presentations | [Source](https://github.com/anthropics/skills/tree/main/document-skills/pptx) |
-| **xlsx** | Manipulate Excel files, formulas, tables, and charts | [Source](https://github.com/anthropics/skills/tree/main/document-skills/xlsx) |
+| **docx** | Create and edit Microsoft Word documents with formatting, comments, and tracked changes | [Source](https://github.com/anthropics/skills/tree/main/skills/docx) |
+| **pdf** | Extract content from PDFs, split/merge documents, or create new ones | [Source](https://github.com/anthropics/skills/tree/main/skills/pdf) |
+| **pptx** | Generate and edit PowerPoint presentations | [Source](https://github.com/anthropics/skills/tree/main/skills/pptx) |
+| **xlsx** | Manipulate Excel files, formulas, tables, and charts | [Source](https://github.com/anthropics/skills/tree/main/skills/xlsx) |
 | **revealjs-skill** | Generate polished, professional presentations using the Reveal.js HTML presentation framework | [Source](https://github.com/ryanbbrown/revealjs-skill/tree/main) |
 
 ---
@@ -64,11 +86,11 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 
 | Name | Description | Link |
 |------|-------------|------|
-| **algorithmic-art** | Create generative art using p5.js | [Source](https://github.com/anthropics/skills/tree/main/algorithmic-art) |
-| **canvas-design** | Render layout-based visual designs in PNG/PDF | [Source](https://github.com/anthropics/skills/tree/main/canvas-design) |
-| **slack-gif-creator** | Generate Slack-optimized animated GIFs | [Source](https://github.com/anthropics/skills/tree/main/slack-gif-creator) |
-| **brand-guidelines** | Apply company branding to outputs | [Source](https://github.com/anthropics/skills/tree/main/brand-guidelines) |
-| **theme-factory** | Create and apply visual themes for documents | [Source](https://github.com/anthropics/skills/tree/main/theme-factory) |
+| **algorithmic-art** | Create generative art using p5.js | [Source](https://github.com/anthropics/skills/tree/main/skills/algorithmic-art) |
+| **canvas-design** | Render layout-based visual designs in PNG/PDF | [Source](https://github.com/anthropics/skills/tree/main/skills/canvas-design) |
+| **slack-gif-creator** | Generate Slack-optimized animated GIFs | [Source](https://github.com/anthropics/skills/tree/main/skills/slack-gif-creator) |
+| **brand-guidelines** | Apply company branding to outputs | [Source](https://github.com/anthropics/skills/tree/main/skills/brand-guidelines) |
+| **theme-factory** | Create and apply visual themes for documents | [Source](https://github.com/anthropics/skills/tree/main/skills/theme-factory) |
 | **nano-banana-image-generation** | Create images using Nano Banana Pro | [Source](https://github.com/livelabs-ventures/nano-skills/tree/main/skills/nano-image-generator) |
 | **frontend-slides** | Create animation-rich single-file HTML presentations with 12 visual styles and zero dependencies | [Source](https://github.com/zarazhangrui/frontend-slides) |
 | **web-asset-generator** | Generate favicons, app icons, PWA manifests, and Open Graph images with WCAG contrast validation | [Source](https://github.com/alonw0/web-asset-generator) |
