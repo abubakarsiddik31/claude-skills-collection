@@ -11,11 +11,11 @@ This repository gathers and organizes all publicly available Claude Skills, incl
 
 ## 📈 Overview
 
-**168 skills** across **13 categories**:
+**173 skills** across **13 categories**:
 
 | Category | Skills |
 |----------|--------|
-| 💻 Development & Code Tools | 45 |
+| 💻 Development & Code Tools | 50 |
 | 📣 Marketing & SEO | 19 |
 | 📝 Writing & Research | 17 |
 | 🤝 Collaboration & Project Management | 14 |
@@ -101,8 +101,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 
 | Name | Description | Link |
 |------|-------------|------|
-| **artifacts-builder** | Generate clean HTML/CSS/React UI components | [Source](https://github.com/anthropics/skills/tree/main/artifacts-builder) |
-| **MCP Server** | Build Claude-compatible API connectors | [Source](https://github.com/anthropics/skills/tree/main/mcp-builder) |
+| **MCP Server** | Build Claude-compatible API connectors | [Source](https://github.com/anthropics/skills/tree/main/skills/mcp-builder) |
 | **Changelog Generator** | Create changelogs from commit history | [Source](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/changelog-generator) |
 | **using-git-worktrees** | Manage feature branches safely in isolated Git worktrees | [Source](https://github.com/obra/superpowers/tree/main/skills/using-git-worktrees) |
 | **test-driven-development** | Write tests before implementation to drive development | [Source](https://github.com/obra/superpowers/tree/main/skills/test-driven-development) |
@@ -113,9 +112,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **web-artifacts-builder** | Create elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui) | [Source](https://github.com/anthropics/skills/tree/main/skills/web-artifacts-builder) |
 | **pypict-claude-skill** | Design comprehensive test cases using PICT (Pairwise Independent Combinatorial Testing) for optimized test suites | [Source](https://github.com/omkamal/pypict-claude-skill) |
 | **aws-skills** | AWS development with CDK best practices, cost optimization, and serverless/event-driven architecture patterns | [Source](https://github.com/zxkane/aws-skills) |
-| **claude-starter** | Production-ready Claude Code configuration template with 40 auto-activating skills and TOON format support | [Source](https://github.com/raintree-technology/claude-starter) |
 | **move-code-quality-skill** | Analyzes Move language packages against the official Move Book Code Quality Checklist | [Source](https://github.com/1NickPappas/move-code-quality-skill) |
-| **claude-code-terminal-title** | Gives each Claude Code terminal window a dynamic title describing the work being done | [Source](https://github.com/bluzername/claude-code-terminal-title) |
 | **audit-website** | Cli website auditing tool for seo, performance, security and 140+ other rules | [Source](https://github.com/squirrelscan/skills/tree/main) |
 | **stripe-best-practices** | Official Stripe skill for building correct integrations with payments, subscriptions, and webhooks | [Source](https://github.com/stripe/ai/tree/main/skills/stripe-best-practices) |
 | **upgrade-stripe** | Official Stripe skill for safely upgrading SDK and API versions | [Source](https://github.com/stripe/ai/tree/main/skills/upgrade-stripe) |
@@ -125,9 +122,14 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **terraform-module-generation** | Official HashiCorp skill for creating and refactoring Terraform modules | [Source](https://github.com/hashicorp/agent-skills/tree/main/terraform/module-generation) |
 | **terraform-provider-development** | Official HashiCorp skill for developing custom Terraform providers | [Source](https://github.com/hashicorp/agent-skills/tree/main/terraform/provider-development) |
 | **terraform-skill** | Comprehensive Terraform/OpenTofu best practices covering testing, modules, CI/CD, and 100+ patterns | [Source](https://github.com/antonbabenko/terraform-skill) |
-| **cloudflare-agents-sdk** | Official Cloudflare skill for building stateful AI agents with scheduling, RPC, and MCP on Workers | [Source](https://github.com/cloudflare/skills) |
-| **cloudflare-wrangler** | Official Cloudflare skill for deploying and managing Workers, KV, R2, D1, and Queues | [Source](https://github.com/cloudflare/skills) |
-| **cloudflare-web-perf** | Official Cloudflare skill for auditing Core Web Vitals and render-blocking resources | [Source](https://github.com/cloudflare/skills) |
+| **cloudflare-agents-sdk** | Official Cloudflare skill for building stateful AI agents with scheduling, RPC, and MCP on Workers | [Source](https://github.com/cloudflare/skills/tree/main/skills/agents-sdk) |
+| **cloudflare-wrangler** | Official Cloudflare skill for deploying and managing Workers, KV, R2, D1, and Queues | [Source](https://github.com/cloudflare/skills/tree/main/skills/wrangler) |
+| **cloudflare-web-perf** | Official Cloudflare skill for auditing Core Web Vitals and render-blocking resources | [Source](https://github.com/cloudflare/skills/tree/main/skills/web-perf) |
+| **cloudflare-building-ai-agent** | Official Cloudflare skill for building full AI agents on Cloudflare's infrastructure | [Source](https://github.com/cloudflare/skills/tree/main/skills/building-ai-agent-on-cloudflare) |
+| **cloudflare-building-mcp-server** | Official Cloudflare skill for building and deploying MCP servers on Cloudflare Workers | [Source](https://github.com/cloudflare/skills/tree/main/skills/building-mcp-server-on-cloudflare) |
+| **cloudflare-durable-objects** | Official Cloudflare skill for building stateful, globally consistent applications with Durable Objects | [Source](https://github.com/cloudflare/skills/tree/main/skills/durable-objects) |
+| **cloudflare-sandbox-sdk** | Official Cloudflare skill for running untrusted code safely using Cloudflare's sandbox environment | [Source](https://github.com/cloudflare/skills/tree/main/skills/sandbox-sdk) |
+| **cloudflare-workers-best-practices** | Official Cloudflare skill for Workers best practices covering performance, security, and deployment patterns | [Source](https://github.com/cloudflare/skills/tree/main/skills/workers-best-practices) |
 | **netlify-functions** | Official Netlify skill for building serverless API endpoints and background tasks | [Source](https://github.com/netlify/context-and-tools) |
 | **netlify-db** | Official Netlify skill for managed Postgres with deploy preview branching | [Source](https://github.com/netlify/context-and-tools) |
 | **neon-postgres** | Official Neon skill for best practices with Neon Serverless Postgres | [Source](https://github.com/neondatabase/agent-skills) |
