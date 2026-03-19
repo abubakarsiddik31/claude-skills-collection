@@ -22,6 +22,8 @@ This repository gathers and organizes all publicly available Claude Skills, incl
   - [📚 Learning & Knowledge](#learning--knowledge)
   - [🎥 Media & Content](#media--content)
   - [🤝 Collaboration & Project Management](#collaboration--project-management)
+  - [📣 Marketing & SEO](#marketing--seo)
+  - [💼 Career & Job Search](#career--job-search)
   - [🔐 Security & Testing](#security--testing)
   - [⚙️ Utility & Automation](#utility--automation)
 - [Getting Started](#getting-started)
@@ -163,6 +165,13 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **avoid-ai-writing** | Audit and rewrite content to remove 21 categories of AI writing patterns with a 43-entry replacement table | [Source](https://github.com/conorbronsdon/avoid-ai-writing) |
 | **non-fiction-book-factory** | Complete nonfiction book creation pipeline replicating traditional publishing infrastructure | [Source](https://github.com/robertguss/claude-skills) |
 | **ebook-factory** | Focused ebook creation pipeline for producing publication-ready digital books | [Source](https://github.com/robertguss/claude-skills) |
+| **academic-research-skills** | 13-agent pipeline for rigorous academic research with Socratic guided mode and systematic review/PRISMA support | [Source](https://github.com/Imbad0202/academic-research-skills) |
+| **academic-paper** | 12-agent paper writing system with LaTeX output, visualization generation, revision coaching, and multi-format citation conversion | [Source](https://github.com/Imbad0202/academic-research-skills/tree/main/academic-paper) |
+| **academic-paper-reviewer** | Multi-perspective peer review with 0-100 quality rubrics, Editor-in-Chief, 3 dynamic reviewers, and Devil's Advocate roles | [Source](https://github.com/Imbad0202/academic-research-skills/tree/main/academic-paper-reviewer) |
+| **claude-scientific-writer** | Publication-ready scientific document generation with real-time research lookup, citation management, and 8-dimension ScholarEval review | [Source](https://github.com/K-Dense-AI/claude-scientific-writer) |
+| **claude-blog** | Blog content creation ecosystem with 12 commands for writing, rewriting, SEO, schema markup, content repurposing, and editorial calendars | [Source](https://github.com/AgriciDaniel/claude-blog) |
+| **claude-email** | AI-powered email management with inbox triage, composition using copywriting frameworks (PAS, AIDA, BAB), deliverability audits, and automation sequences | [Source](https://github.com/AgriciDaniel/claude-email) |
+| **autoresearch** | Autonomous research orchestration using a two-loop architecture managing the full lifecycle from literature survey to paper writing | [Source](https://github.com/Orchestra-Research/AI-research-SKILLs) |
 
 ---
 
@@ -218,6 +227,45 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 
 ---
 
+## 📣 Marketing & SEO
+
+| Name | Description | Link |
+|------|-------------|------|
+| **copywriting** | Expert conversion copywriter skill that prioritizes clarity and business outcomes with proven frameworks | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/copywriting) |
+| **seo-audit** | Technical and on-page SEO review for websites | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/seo-audit) |
+| **ai-seo** | AI search engine optimization for visibility in AI-powered search results | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/ai-seo) |
+| **programmatic-seo** | Scaled SEO page generation for large content operations | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/programmatic-seo) |
+| **content-strategy** | Content planning and topic research for marketing teams | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/content-strategy) |
+| **copy-editing** | Marketing copy review and refinement for quality and conversion | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/copy-editing) |
+| **email-sequence** | Automated email flow development for welcome, nurture, and re-engagement series | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/email-sequence) |
+| **cold-email** | B2B outreach email sequence creation and optimization | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/cold-email) |
+| **ad-creative** | Ad headline and creative generation for paid campaigns | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/ad-creative) |
+| **ab-test-setup** | A/B testing and experiment planning for marketing campaigns | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/ab-test-setup) |
+| **page-cro** | Marketing page conversion rate optimization | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/page-cro) |
+| **pricing-strategy** | Pricing and monetization strategy for SaaS and products | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/pricing-strategy) |
+| **launch-strategy** | Product launch planning and go-to-market strategy | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/launch-strategy) |
+| **social-content** | Social media content creation across platforms | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/social-content) |
+| **lead-magnets** | Lead magnet creation and optimization for list building | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/lead-magnets) |
+| **referral-program** | Referral and affiliate program design and implementation | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/referral-program) |
+| **sales-enablement** | Sales collateral and pitch deck creation for B2B teams | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/sales-enablement) |
+| **analytics-tracking** | Analytics setup and measurement implementation | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/analytics-tracking) |
+| **marketing-psychology** | Behavioral science application to marketing copy and UX | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/marketing-psychology) |
+
+---
+
+## 💼 Career & Job Search
+
+| Name | Description | Link |
+|------|-------------|------|
+| **proficiently-claude-skills** | AI-powered job search, resume tailoring, and cover letter writing | [Source](https://github.com/proficientlyjobs/proficiently-claude-skills) |
+| **claude-code-job-tailor** | Resume optimization system that analyzes job postings, ranks requirements, and generates tailored PDFs in under 60 seconds | [Source](https://github.com/javiera-vasquez/claude-code-job-tailor) |
+| **resume-tailoring-skill** | AI-powered resume tailoring optimized for specific job descriptions while maintaining factual integrity | [Source](https://github.com/varunr89/resume-tailoring-skill) |
+| **claude-resume-kit** | Extract experience once, generate tailored LaTeX resumes per JD with anti-fabrication controls and multi-perspective critique | [Source](https://github.com/ARPeeketi/claude-resume-kit) |
+| **Resume-Builder** | AI-powered resume and cover letter generator with dual ATS + HR scoring for any profession | [Source](https://github.com/jananthan30/Resume-Builder) |
+| **ResumeSkills** | Resume optimization, ATS scoring, interview prep, and strategic job search skills collection | [Source](https://github.com/Paramchoudhary/ResumeSkills) |
+
+---
+
 ## 🔐 Security & Testing
 
 | Name | Description | Link |
@@ -255,6 +303,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **firecrawl-cli** | Official Firecrawl skill for scraping, crawling, searching, and mapping the web via CLI | [Source](https://github.com/firecrawl/cli) |
 | **replicate** | Official Replicate skill for discovering, comparing, and running AI models via API | [Source](https://github.com/replicate/skills) |
 | **agentsys** | 36 workflow automation skills for profiling, code review, AI consultation, release management, and drift analysis | [Source](https://github.com/avifenesh/agentsys) |
+| **better-i18n** | Official i18n skill for internationalization best practices, translation workflows, and localization automation | [Source](https://github.com/better-i18n/skills) |
 
 ---
 
