@@ -68,6 +68,8 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **brand-guidelines** | Apply company branding to outputs | [Source](https://github.com/anthropics/skills/tree/main/brand-guidelines) |
 | **theme-factory** | Create and apply visual themes for documents | [Source](https://github.com/anthropics/skills/tree/main/theme-factory) |
 | **nano-banana-image-generation** | Create images using Nano Banana Pro | [Source](https://github.com/livelabs-ventures/nano-skills/tree/main/skills/nano-image-generator) |
+| **frontend-slides** | Create animation-rich single-file HTML presentations with 12 visual styles and zero dependencies | [Source](https://github.com/zarazhangrui/frontend-slides) |
+| **web-asset-generator** | Generate favicons, app icons, PWA manifests, and Open Graph images with WCAG contrast validation | [Source](https://github.com/alonw0/web-asset-generator) |
 
 ---
 
@@ -91,7 +93,35 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **move-code-quality-skill** | Analyzes Move language packages against the official Move Book Code Quality Checklist | [Source](https://github.com/1NickPappas/move-code-quality-skill) |
 | **claude-code-terminal-title** | Gives each Claude Code terminal window a dynamic title describing the work being done | [Source](https://github.com/bluzername/claude-code-terminal-title) |
 | **audit-website** | Cli website auditing tool for seo, performance, security and 140+ other rules | [Source](https://github.com/squirrelscan/skills/tree/main) |
-
+| **stripe-best-practices** | Official Stripe skill for building correct integrations with payments, subscriptions, and webhooks | [Source](https://github.com/stripe/ai/tree/main/skills/stripe-best-practices) |
+| **upgrade-stripe** | Official Stripe skill for safely upgrading SDK and API versions | [Source](https://github.com/stripe/ai/tree/main/skills/upgrade-stripe) |
+| **expo-app-design** | Official Expo skill for designing and building Expo/React Native apps with best practices | [Source](https://github.com/expo/skills) |
+| **supabase-postgres** | Official Supabase skill for PostgreSQL best practices in Supabase projects | [Source](https://github.com/supabase/agent-skills) |
+| **terraform-code-generation** | Official HashiCorp skill for generating and validating Terraform HCL code | [Source](https://github.com/hashicorp/agent-skills/tree/main/terraform/code-generation) |
+| **terraform-module-generation** | Official HashiCorp skill for creating and refactoring Terraform modules | [Source](https://github.com/hashicorp/agent-skills/tree/main/terraform/module-generation) |
+| **terraform-provider-development** | Official HashiCorp skill for developing custom Terraform providers | [Source](https://github.com/hashicorp/agent-skills/tree/main/terraform/provider-development) |
+| **terraform-skill** | Comprehensive Terraform/OpenTofu best practices covering testing, modules, CI/CD, and 100+ patterns | [Source](https://github.com/antonbabenko/terraform-skill) |
+| **cloudflare-agents-sdk** | Official Cloudflare skill for building stateful AI agents with scheduling, RPC, and MCP on Workers | [Source](https://github.com/cloudflare/skills) |
+| **cloudflare-wrangler** | Official Cloudflare skill for deploying and managing Workers, KV, R2, D1, and Queues | [Source](https://github.com/cloudflare/skills) |
+| **cloudflare-web-perf** | Official Cloudflare skill for auditing Core Web Vitals and render-blocking resources | [Source](https://github.com/cloudflare/skills) |
+| **netlify-functions** | Official Netlify skill for building serverless API endpoints and background tasks | [Source](https://github.com/netlify/context-and-tools) |
+| **netlify-db** | Official Netlify skill for managed Postgres with deploy preview branching | [Source](https://github.com/netlify/context-and-tools) |
+| **neon-postgres** | Official Neon skill for best practices with Neon Serverless Postgres | [Source](https://github.com/neondatabase/agent-skills) |
+| **vercel-react** | Official Vercel skill for React best practices and patterns | [Source](https://github.com/vercel-labs/agent-skills) |
+| **next-best-practices** | Official Vercel skill for Next.js recommended patterns and best practices | [Source](https://github.com/vercel-labs/next-skills) |
+| **next-upgrade** | Official Vercel skill for upgrading Next.js projects to newer versions | [Source](https://github.com/vercel-labs/next-skills) |
+| **react-native-best-practices** | Official Callstack skill for React Native performance optimization patterns | [Source](https://github.com/callstackincubator/agent-skills) |
+| **better-auth** | Official Better Auth skill for authentication integration including OAuth, 2FA, and passkeys | [Source](https://github.com/better-auth/skills) |
+| **tinybird** | Official Tinybird skill for project guidelines covering datasources, pipes, endpoints, and SQL | [Source](https://github.com/tinybirdco/tinybird-agent-skills) |
+| **sanity** | Official Sanity skill for Sanity Studio, GROQ queries, and content workflows | [Source](https://github.com/sanity-io/agent-toolkit) |
+| **clickhouse** | Official ClickHouse skill for analytics query best practices | [Source](https://github.com/ClickHouse/agent-skills) |
+| **remotion-skill** | Official Remotion skill for programmatic video creation with React | [Source](https://github.com/remotion-dev/skills) |
+| **ios-simulator-skill** | 21-script toolkit for iOS simulator automation with accessibility APIs and 96% token reduction | [Source](https://github.com/conorluddy/ios-simulator-skill) |
+| **claude-d3js-skill** | Interactive data visualizations using D3.js with reference materials and patterns | [Source](https://github.com/chrisvoncsefalvay/claude-d3js-skill) |
+| **playwright-skill** | General-purpose browser automation with Playwright for testing and web interaction | [Source](https://github.com/lackeyjb/playwright-skill) |
+| **claude-a11y-skill** | Comprehensive accessibility audits combining axe-core and eslint-plugin-jsx-a11y against WCAG 2.1 | [Source](https://github.com/airowe/claude-a11y-skill) |
+| **context-engineering-kit** | Advanced context engineering with multi-agent patterns, reflexion loops, and domain-driven development | [Source](https://github.com/NeoLabHQ/context-engineering-kit) |
+| **compound-engineering-plugin** | Pragmatic engineering plugin with ideation, planning, execution, multi-agent review, and knowledge compounding | [Source](https://github.com/EveryInc/compound-engineering-plugin) |
 
 ---
 
@@ -102,6 +132,8 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **csv-data-summarizer** | Generate statistics and charts from CSVs | [Source](https://github.com/coffeefuelbump/csv-data-summarizer-claude-skill) |
 | **root-cause-tracing** | Trace and diagnose the source of data or logic errors | [Source](https://github.com/obra/superpowers/tree/main/skills/root-cause-tracing) |
 | **postgres** | Execute safe read-only SQL queries against PostgreSQL databases with multi-connection support | [Source](https://github.com/sanjay3290/ai-skills/tree/main/skills/postgres) |
+| **read-only-postgres** | Safe read-only PostgreSQL queries with multi-connection support and defense-in-depth security | [Source](https://github.com/jawwadfirdousi/agent-skills) |
+| **prompt-template-wizard** | Converts incomplete feature/bug requests into complete structured prompt templates | [Source](https://github.com/jawwadfirdousi/agent-skills) |
 
 ---
 
@@ -111,6 +143,9 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 |------|-------------|------|
 | **claude-scientific-skills** | 125+ scientific skills for bioinformatics, cheminformatics, clinical research, and machine learning | [Source](https://github.com/K-Dense-AI/claude-scientific-skills) |
 | **materials-simulation-skills** | Agent skills for computational materials science: numerical stability, time-stepping, linear solvers, and simulation validation | [Source](https://github.com/HeshamFS/materials-simulation-skills) |
+| **extract-from-pdfs** | Extract structured data from scientific PDFs using Claude's vision with external validation against GBIF/WFO databases | [Source](https://github.com/brunoasm/my_claude_skills) |
+| **phylo-from-buscos** | Phylogenomic workflows from genome assemblies using BUSCO single-copy orthologs | [Source](https://github.com/brunoasm/my_claude_skills) |
+| **claude-mountaineering-skills** | Mountain route research aggregating 10+ sources including weather, avalanche forecasts, and hazard analysis | [Source](https://github.com/dreamiurg/claude-mountaineering-skills) |
 
 ---
 
@@ -126,6 +161,8 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **brainstorming** | Facilitate creative idea generation sessions | [Source](https://github.com/obra/superpowers/tree/main/skills/brainstorming) |
 | **family-history-research** | Provides assistance with planning family history and genealogy research projects | [Source](https://github.com/emaynard/claude-family-history-research-skill) |
 | **avoid-ai-writing** | Audit and rewrite content to remove 21 categories of AI writing patterns with a 43-entry replacement table | [Source](https://github.com/conorbronsdon/avoid-ai-writing) |
+| **non-fiction-book-factory** | Complete nonfiction book creation pipeline replicating traditional publishing infrastructure | [Source](https://github.com/robertguss/claude-skills) |
+| **ebook-factory** | Focused ebook creation pipeline for producing publication-ready digital books | [Source](https://github.com/robertguss/claude-skills) |
 
 ---
 
@@ -143,7 +180,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **scale-game** | Stress-test ideas at extreme scales to expose hidden weaknesses or truths | [Source](https://github.com/obra/superpowers-skills/tree/main/skills/problem-solving/scale-game) |
 | **simplification-cascades** | Reduce complexity by discovering insights that simplify multiple elements at once | [Source](https://github.com/obra/superpowers-skills/tree/main/skills/problem-solving/simplification-cascades) |
 | **tracing-knowledge-lineages** | Track how ideas evolve across iterations and influences | [Source](https://github.com/obra/superpowers-skills/tree/main/skills/research/tracing-knowledge-lineages) |
-
+| **think-deeply** | Prevents confirmatory answers by encouraging nuanced multi-perspective analysis for complex questions | [Source](https://github.com/brunoasm/my_claude_skills) |
 
 ---
 
@@ -156,6 +193,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **Image Enhancer** | Improve resolution and clarity of screenshots | [Source](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/image-enhancer) |
 | **Video Downloader** | Download YouTube videos for use in Claude | [Source](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/video-downloader) |
 | **imagen** | Generate images using Google Gemini's image generation API for UI mockups, icons, and visual assets | [Source](https://github.com/sanjay3290/ai-skills/tree/main/skills/imagen) |
+| **typefully** | Official Typefully skill for creating and scheduling social media content across X, LinkedIn, Threads, Bluesky, and Mastodon | [Source](https://github.com/typefully/agent-skills) |
 
 ---
 
@@ -176,7 +214,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **review-implementing** | Evaluate code implementation plans and align with specs | [Source](https://github.com/mhattingpete/claude-skills-marketplace/tree/main/engineering-workflow-plugin/skills/review-implementing) |
 | **test-fixing** | Detect failing tests and propose patches or fixes | [Source](https://github.com/mhattingpete/claude-skills-marketplace/tree/main/engineering-workflow-plugin/skills/test-fixing) |
 | **product-manager-skills** | Senior PM agent with 6 knowledge domains, 12 templates, 30+ frameworks covering discovery, strategy, delivery, SaaS metrics, PM career coaching, and AI product craft | [Source](https://github.com/Digidai/product-manager-skills) |
-
+| **read-only-gh-pr-review** | Safe read-only review of backend pull requests using GitHub CLI with local inspection | [Source](https://github.com/jawwadfirdousi/agent-skills) |
 
 ---
 
@@ -194,6 +232,9 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **verification-before-completion** | Run verification checks before closing tasks | [Source](https://github.com/obra/superpowers/tree/main/skills/verification-before-completion) |
 | **condition-based-waiting** | Use logical conditions to control test flow timing | [Source](https://github.com/obra/superpowers/tree/main/skills/condition-based-waiting) |
 | **varlock-claude-skill** | Secure environment variable management ensuring secrets never appear in sessions, terminals, logs, or git commits | [Source](https://github.com/wrsmith108/varlock-claude-skill) |
+| **security-fuzzing** | Essential fuzzing payloads for SQL injection, command injection, NoSQL injection, and LDAP injection testing | [Source](https://github.com/Eyadkelleh/awesome-claude-skills-security) |
+| **security-payloads** | Specialized attack payloads for XSS vectors, XXE, template injection, and file upload bypass testing | [Source](https://github.com/Eyadkelleh/awesome-claude-skills-security) |
+| **llm-testing** | AI/ML security testing including bias detection, data leakage, alignment testing, and adversarial resistance | [Source](https://github.com/Eyadkelleh/awesome-claude-skills-security) |
 
 ---
 
@@ -209,7 +250,11 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **using-superpowers** | Automate Superpowers workflows and validation tasks | [Source](https://github.com/obra/superpowers/tree/main/skills/using-superpowers) |
 | **gardening-skills-wiki** | Maintain the skills wiki, ensuring naming consistency and metadata quality | [Source](https://github.com/obra/superpowers-skills/tree/main/skills/meta/gardening-skills-wiki) |
 | **pulling-updates-from-skills-repository** | Sync and pull the latest skill updates from repositories | [Source](https://github.com/obra/superpowers-skills/tree/main/skills/meta/pulling-updates-from-skills-repository) |
-
+| **cc-devops-skills** | 31 DevOps skills covering IaC, CI/CD, Kubernetes, observability, and scripting automation | [Source](https://github.com/akin-ozer/cc-devops-skills) |
+| **devops-claude-skills** | DevOps workflow skills for Terraform, K8s troubleshooting, AWS cost optimization, and GitOps | [Source](https://github.com/ahmedasmar/devops-claude-skills) |
+| **firecrawl-cli** | Official Firecrawl skill for scraping, crawling, searching, and mapping the web via CLI | [Source](https://github.com/firecrawl/cli) |
+| **replicate** | Official Replicate skill for discovering, comparing, and running AI models via API | [Source](https://github.com/replicate/skills) |
+| **agentsys** | 36 workflow automation skills for profiling, code review, AI consultation, release management, and drift analysis | [Source](https://github.com/avifenesh/agentsys) |
 
 ---
 
