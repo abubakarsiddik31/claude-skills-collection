@@ -164,6 +164,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 ---
 
 ## 🔬 Scientific & Research Tools
+- [CCHub](https://github.com/Moresl/cchub) - A desktop control panel for the Claude Code / Codex / Gemini CLI ecosystem. Manage MCP servers, config profiles, agent skills, CLAUDE.md, hooks, and workflow templates from a single Tauri app (Windows / macOS / Linux).
 
 | Name | Description | Link |
 |------|-------------|------|
