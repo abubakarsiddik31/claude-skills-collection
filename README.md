@@ -333,6 +333,8 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 
 ## Getting Started
 
+If you want a Chinese place to search and install skills, check out Skills宝: https://skilery.com
+
 To use a skill:
 1. Clone the [Anthropic Claude Skills](https://github.com/anthropics/skills) repo.
 2. Enable Code Execution and Skill loading in Claude.
