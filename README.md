@@ -11,7 +11,7 @@ This repository gathers and organizes all publicly available Claude Skills, incl
 
 ## 📈 Overview
 
-**173 skills** across **13 categories**:
+**174 skills** across **13 categories**:
 
 | Category | Skills |
 |----------|--------|
@@ -22,7 +22,7 @@ This repository gathers and organizes all publicly available Claude Skills, incl
 | ⚙️ Utility & Automation | 14 |
 | 🔐 Security & Testing | 13 |
 | 📚 Learning & Knowledge | 11 |
-| 🎨 Creative & Design | 8 |
+| 🎨 Creative & Design | 9 |
 | 💼 Career & Job Search | 6 |
 | 🎥 Media & Content | 6 |
 | 🔬 Scientific & Research Tools | 5 |
@@ -94,6 +94,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **nano-banana-image-generation** | Create images using Nano Banana Pro | [Source](https://github.com/livelabs-ventures/nano-skills/tree/main/skills/nano-image-generator) |
 | **frontend-slides** | Create animation-rich single-file HTML presentations with 12 visual styles and zero dependencies | [Source](https://github.com/zarazhangrui/frontend-slides) |
 | **web-asset-generator** | Generate favicons, app icons, PWA manifests, and Open Graph images with WCAG contrast validation | [Source](https://github.com/alonw0/web-asset-generator) |
+| **figma-plugin-dev** | Scaffold, debug, and ship Figma and FigJam plugins using the Plugin API and TypeScript — covers node creation, UI communication, FigJam nodes, and bundler setup | [Source](https://github.com/figma/plugin-samples) |
 
 ---
 
