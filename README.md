@@ -148,6 +148,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **claude-a11y-skill** | Comprehensive accessibility audits combining axe-core and eslint-plugin-jsx-a11y against WCAG 2.1 | [Source](https://github.com/airowe/claude-a11y-skill) |
 | **context-engineering-kit** | Advanced context engineering with multi-agent patterns, reflexion loops, and domain-driven development | [Source](https://github.com/NeoLabHQ/context-engineering-kit) |
 | **compound-engineering-plugin** | Pragmatic engineering plugin with ideation, planning, execution, multi-agent review, and knowledge compounding | [Source](https://github.com/EveryInc/compound-engineering-plugin) |
+| **senior-by-default** | Multi-actor /do pipeline turning plain-language tasks into senior-grade implementations: Opus plans/reviews, Sonnet implements, Haiku handles trivial mechanical changes, with role boundaries, self-review calibration metric, and zero-downtime migration audit | [Source](https://github.com/mitiay7/senior-by-default) |
 
 ---
 
