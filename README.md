@@ -125,8 +125,8 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **cloudflare-agents-sdk** | Official Cloudflare skill for building stateful AI agents with scheduling, RPC, and MCP on Workers | [Source](https://github.com/cloudflare/skills/tree/main/skills/agents-sdk) |
 | **cloudflare-wrangler** | Official Cloudflare skill for deploying and managing Workers, KV, R2, D1, and Queues | [Source](https://github.com/cloudflare/skills/tree/main/skills/wrangler) |
 | **cloudflare-web-perf** | Official Cloudflare skill for auditing Core Web Vitals and render-blocking resources | [Source](https://github.com/cloudflare/skills/tree/main/skills/web-perf) |
-| **cloudflare-building-ai-agent** | Official Cloudflare skill for building full AI agents on Cloudflare's infrastructure | [Source](https://github.com/cloudflare/skills/tree/main/skills/building-ai-agent-on-cloudflare) |
-| **cloudflare-building-mcp-server** | Official Cloudflare skill for building and deploying MCP servers on Cloudflare Workers | [Source](https://github.com/cloudflare/skills/tree/main/skills/building-mcp-server-on-cloudflare) |
+| **cloudflare-building-ai-agent** | Official Cloudflare skill for building full AI agents on Cloudflare's infrastructure | [Source](https://github.com/cloudflare/skills/blob/main/commands/build-agent.md) |
+| **cloudflare-building-mcp-server** | Official Cloudflare skill for building and deploying MCP servers on Cloudflare Workers | [Source](https://github.com/cloudflare/skills/blob/main/commands/build-mcp.md) |
 | **cloudflare-durable-objects** | Official Cloudflare skill for building stateful, globally consistent applications with Durable Objects | [Source](https://github.com/cloudflare/skills/tree/main/skills/durable-objects) |
 | **cloudflare-sandbox-sdk** | Official Cloudflare skill for running untrusted code safely using Cloudflare's sandbox environment | [Source](https://github.com/cloudflare/skills/tree/main/skills/sandbox-sdk) |
 | **cloudflare-workers-best-practices** | Official Cloudflare skill for Workers best practices covering performance, security, and deployment patterns | [Source](https://github.com/cloudflare/skills/tree/main/skills/workers-best-practices) |
@@ -156,7 +156,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | Name | Description | Link |
 |------|-------------|------|
 | **csv-data-summarizer** | Generate statistics and charts from CSVs | [Source](https://github.com/coffeefuelbump/csv-data-summarizer-claude-skill) |
-| **root-cause-tracing** | Trace and diagnose the source of data or logic errors | [Source](https://github.com/obra/superpowers/tree/main/skills/root-cause-tracing) |
+| **root-cause-tracing** | Trace and diagnose the source of data or logic errors | [Source](https://github.com/obra/superpowers-skills/tree/main/skills/debugging/root-cause-tracing) |
 | **postgres** | Execute safe read-only SQL queries against PostgreSQL databases with multi-connection support | [Source](https://github.com/sanjay3290/ai-skills/tree/main/skills/postgres) |
 | **read-only-postgres** | Safe read-only PostgreSQL queries with multi-connection support and defense-in-depth security | [Source](https://github.com/jawwadfirdousi/agent-skills) |
 | **prompt-template-wizard** | Converts incomplete feature/bug requests into complete structured prompt templates | [Source](https://github.com/jawwadfirdousi/agent-skills) |
@@ -181,7 +181,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 |------|-------------|------|
 | **article-extractor** | Extract full content from web articles | [Source](https://github.com/michalparkola/tapestry-skills-for-claude-code/tree/main/article-extractor) |
 | **Content Research Writer** | Research and refine written content with feedback | [Source](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/content-research-writer) |
-| **internal-comms** | Draft formal internal comms and reports | [Source](https://github.com/anthropics/skills/tree/main/internal-comms) |
+| **internal-comms** | Draft formal internal comms and reports | [Source](https://github.com/anthropics/skills/tree/main/skills/internal-comms) |
 | **writing-plans** | Create structured written plans with clear milestones | [Source](https://github.com/obra/superpowers/tree/main/skills/writing-plans) |
 | **writing-skills** | Enhance instructional and technical writing quality | [Source](https://github.com/obra/superpowers/tree/main/skills/writing-skills) |
 | **brainstorming** | Facilitate creative idea generation sessions | [Source](https://github.com/obra/superpowers/tree/main/skills/brainstorming) |
@@ -203,10 +203,10 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 
 | Name | Description | Link |
 |------|-------------|------|
-| **tapestry** | Build a linked knowledge graph from documents | [Source](https://github.com/michalparkola/tapestry-skills-for-claude-code/tree/main/tapestry) |
+| **tapestry** | Build a linked knowledge graph from documents | [Source](https://github.com/michalparkola/tapestry-skills-for-claude-code) |
 | **ship-learn-next** | Recommend next steps based on feedback loops | [Source](https://github.com/michalparkola/tapestry-skills-for-claude-code/tree/main/ship-learn-next) |
 | **using-superpowers** | Learn and apply best practices for Superpowers workflows | [Source](https://github.com/obra/superpowers/tree/main/skills/using-superpowers) |
-| **sharing-skills** | Learn how to contribute new skills via pull requests | [Source](https://github.com/obra/superpowers/tree/main/skills/sharing-skills) |
+| **sharing-skills** | Learn how to contribute new skills via pull requests | [Source](https://github.com/obra/superpowers-skills/tree/main/skills/meta/sharing-skills) |
 | **collision-zone-thinking** | Combine unrelated concepts to find new creative or problem-solving connections | [Source](https://github.com/obra/superpowers-skills/tree/main/skills/problem-solving/collision-zone-thinking) |
 | **inversion-exercise** | Flip assumptions to uncover hidden insights and constraints | [Source](https://github.com/obra/superpowers-skills/tree/main/skills/problem-solving/inversion-exercise) |
 | **meta-pattern-recognition** | Identify patterns across domains to uncover universal principles | [Source](https://github.com/obra/superpowers-skills/tree/main/skills/problem-solving/meta-pattern-recognition) |
@@ -236,7 +236,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 |------|-------------|------|
 | **Meeting Insights Analyzer** | Analyze meeting dynamics and communication patterns | [Source](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/meeting-insights-analyzer) |
 | **Notion Integration Skills** | Official Notion connectors for Claude | [Source](https://notiondevs.notion.site/Notion-Skills-for-Claude-28da4445d27180c7af1df7d8615723d0) |
-| **commands** | Manage and automate recurring project commands | [Source](https://github.com/obra/superpowers/tree/main/skills/commands) |
+| **commands** | Manage and automate recurring project commands | [Source](https://github.com/obra/superpowers) |
 | **receiving-code-review** | Process and apply code review feedback | [Source](https://github.com/obra/superpowers/tree/main/skills/receiving-code-review) |
 | **requesting-code-review** | Request and manage structured code reviews | [Source](https://github.com/obra/superpowers/tree/main/skills/requesting-code-review) |
 | **dispatching-parallel-agents** | Coordinate multiple Claude subagents on shared tasks | [Source](https://github.com/obra/superpowers/tree/main/skills/dispatching-parallel-agents) |
@@ -261,18 +261,18 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **programmatic-seo** | Scaled SEO page generation for large content operations | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/programmatic-seo) |
 | **content-strategy** | Content planning and topic research for marketing teams | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/content-strategy) |
 | **copy-editing** | Marketing copy review and refinement for quality and conversion | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/copy-editing) |
-| **email-sequence** | Automated email flow development for welcome, nurture, and re-engagement series | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/email-sequence) |
+| **email-sequence** | Automated email flow development for welcome, nurture, and re-engagement series | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/emails) |
 | **cold-email** | B2B outreach email sequence creation and optimization | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/cold-email) |
 | **ad-creative** | Ad headline and creative generation for paid campaigns | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/ad-creative) |
-| **ab-test-setup** | A/B testing and experiment planning for marketing campaigns | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/ab-test-setup) |
-| **page-cro** | Marketing page conversion rate optimization | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/page-cro) |
-| **pricing-strategy** | Pricing and monetization strategy for SaaS and products | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/pricing-strategy) |
-| **launch-strategy** | Product launch planning and go-to-market strategy | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/launch-strategy) |
-| **social-content** | Social media content creation across platforms | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/social-content) |
+| **ab-test-setup** | A/B testing and experiment planning for marketing campaigns | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/ab-testing) |
+| **page-cro** | Marketing page conversion rate optimization | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/cro) |
+| **pricing-strategy** | Pricing and monetization strategy for SaaS and products | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/pricing) |
+| **launch-strategy** | Product launch planning and go-to-market strategy | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/launch) |
+| **social-content** | Social media content creation across platforms | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/social) |
 | **lead-magnets** | Lead magnet creation and optimization for list building | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/lead-magnets) |
-| **referral-program** | Referral and affiliate program design and implementation | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/referral-program) |
+| **referral-program** | Referral and affiliate program design and implementation | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/referrals) |
 | **sales-enablement** | Sales collateral and pitch deck creation for B2B teams | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/sales-enablement) |
-| **analytics-tracking** | Analytics setup and measurement implementation | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/analytics-tracking) |
+| **analytics-tracking** | Analytics setup and measurement implementation | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/analytics) |
 | **marketing-psychology** | Behavioral science application to marketing copy and UX | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/marketing-psychology) |
 
 ---
@@ -295,14 +295,14 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | Name | Description | Link |
 |------|-------------|------|
 | **Trail of Bits Security Skills** | Security skills for static analysis with CodeQL/Semgrep, variant analysis, code auditing, and fix verification | [Source](https://github.com/trailofbits/skills) |
-| **webapp-testing** | UI test automation using Playwright | [Source](https://github.com/anthropics/skills/tree/main/webapp-testing) |
+| **webapp-testing** | UI test automation using Playwright | [Source](https://github.com/anthropics/skills/tree/main/skills/webapp-testing) |
 | **ffuf_claude_skill** | Fuzz test web apps with FFUF + Claude | [Source](https://github.com/jthack/ffuf_claude_skill) |
-| **defense-in-depth** | Implement multi-layered testing and security best practices | [Source](https://github.com/obra/superpowers/tree/main/skills/defense-in-depth) |
+| **defense-in-depth** | Implement multi-layered testing and security best practices | [Source](https://github.com/obra/superpowers-skills/tree/main/skills/debugging/defense-in-depth) |
 | **systematic-debugging** | Structured debugging with hypothesis testing and validation | [Source](https://github.com/obra/superpowers/tree/main/skills/systematic-debugging) |
-| **testing-anti-patterns** | Identify and prevent testing anti-patterns | [Source](https://github.com/obra/superpowers/tree/main/skills/testing-anti-patterns) |
-| **testing-skills-with-subagents** | Verify new skills using subagents and test cycles | [Source](https://github.com/obra/superpowers/tree/main/skills/testing-skills-with-subagents) |
+| **testing-anti-patterns** | Identify and prevent testing anti-patterns | [Source](https://github.com/obra/superpowers-skills/tree/main/skills/testing/testing-anti-patterns) |
+| **testing-skills-with-subagents** | Verify new skills using subagents and test cycles | [Source](https://github.com/obra/superpowers-skills/tree/main/skills/meta/testing-skills-with-subagents) |
 | **verification-before-completion** | Run verification checks before closing tasks | [Source](https://github.com/obra/superpowers/tree/main/skills/verification-before-completion) |
-| **condition-based-waiting** | Use logical conditions to control test flow timing | [Source](https://github.com/obra/superpowers/tree/main/skills/condition-based-waiting) |
+| **condition-based-waiting** | Use logical conditions to control test flow timing | [Source](https://github.com/obra/superpowers-skills/tree/main/skills/testing/condition-based-waiting) |
 | **varlock-claude-skill** | Secure environment variable management ensuring secrets never appear in sessions, terminals, logs, or git commits | [Source](https://github.com/wrsmith108/varlock-claude-skill) |
 | **security-fuzzing** | Essential fuzzing payloads for SQL injection, command injection, NoSQL injection, and LDAP injection testing | [Source](https://github.com/Eyadkelleh/awesome-claude-skills-security) |
 | **security-payloads** | Specialized attack payloads for XSS vectors, XXE, template injection, and file upload bypass testing | [Source](https://github.com/Eyadkelleh/awesome-claude-skills-security) |
@@ -317,8 +317,8 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **file-organizer** | Clean up file structures, rename documents | [Source](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/file-organizer) |
 | **invoice-organizer** | Parse and categorize invoices | [Source](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/invoice-organizer) |
 | **raffle-winner-picker** | Pick winners using secure randomness | [Source](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/raffle-winner-picker) |
-| **skill-creator** | Build your own skill interactively | [Source](https://github.com/anthropics/skills/tree/main/skill-creator) |
-| **template-skill** | A starting template for new skills | [Source](https://github.com/anthropics/skills/tree/main/template-skill) |
+| **skill-creator** | Build your own skill interactively | [Source](https://github.com/anthropics/skills/tree/main/skills/skill-creator) |
+| **template-skill** | A starting template for new skills | [Source](https://github.com/anthropics/skills/tree/main/template) |
 | **using-superpowers** | Automate Superpowers workflows and validation tasks | [Source](https://github.com/obra/superpowers/tree/main/skills/using-superpowers) |
 | **gardening-skills-wiki** | Maintain the skills wiki, ensuring naming consistency and metadata quality | [Source](https://github.com/obra/superpowers-skills/tree/main/skills/meta/gardening-skills-wiki) |
 | **pulling-updates-from-skills-repository** | Sync and pull the latest skill updates from repositories | [Source](https://github.com/obra/superpowers-skills/tree/main/skills/meta/pulling-updates-from-skills-repository) |
