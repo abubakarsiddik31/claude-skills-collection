@@ -11,18 +11,18 @@ This repository gathers and organizes all publicly available Claude Skills, incl
 
 ## 📈 Overview
 
-**190 skills** across **13 categories**:
+**204 skills** across **13 categories**:
 
 | Category | Skills |
 |----------|--------|
-| 💻 Development & Code Tools | 57 |
-| 📣 Marketing & SEO | 19 |
+| 💻 Development & Code Tools | 66 |
+| 📣 Marketing & SEO | 20 |
 | 📝 Writing & Research | 17 |
 | 🤝 Collaboration & Project Management | 16 |
-| ⚙️ Utility & Automation | 22 |
+| ⚙️ Utility & Automation | 23 |
 | 🔐 Security & Testing | 13 |
-| 📚 Learning & Knowledge | 11 |
-| 🎨 Creative & Design | 8 |
+| 📚 Learning & Knowledge | 13 |
+| 🎨 Creative & Design | 9 |
 | 💼 Career & Job Search | 6 |
 | 🎥 Media & Content | 6 |
 | 🔬 Scientific & Research Tools | 5 |
@@ -108,6 +108,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **nano-banana-image-generation** | Create images using Nano Banana Pro | [Source](https://github.com/livelabs-ventures/nano-skills/tree/main/skills/nano-image-generator) |
 | **frontend-slides** | Create animation-rich single-file HTML presentations with 12 visual styles and zero dependencies | [Source](https://github.com/zarazhangrui/frontend-slides) |
 | **web-asset-generator** | Generate favicons, app icons, PWA manifests, and Open Graph images with WCAG contrast validation | [Source](https://github.com/alonw0/web-asset-generator) |
+| **color-expert** | Color science and accessibility expertise covering APCA/WCAG, palette systems, and color-space decisions | [Source](https://github.com/meodai/skill.color-expert) |
 
 ---
 
@@ -125,6 +126,15 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **prototype** | Build throwaway prototypes for logic or UI exploration before production implementation | [Source](https://github.com/mattpocock/skills/tree/main/skills/engineering/prototype) |
 | **improve-codebase-architecture** | Find deepening opportunities in a codebase using shared domain language and architectural decisions | [Source](https://github.com/mattpocock/skills/tree/main/skills/engineering/improve-codebase-architecture) |
 | **setup-matt-pocock-skills** | One-time repository setup for issue tracker, triage labels, and docs layout used by the engineering skill suite | [Source](https://github.com/mattpocock/skills/tree/main/skills/engineering/setup-matt-pocock-skills) |
+| **interview-me** | Interactive requirements interview loop to uncover hidden assumptions before implementation | [Source](https://github.com/addyosmani/agent-skills/tree/main/skills/interview-me) |
+| **source-driven-development** | Ground implementation in primary sources and existing code reality before writing changes | [Source](https://github.com/addyosmani/agent-skills/tree/main/skills/source-driven-development) |
+| **performance-optimization** | Diagnose and improve runtime, render, and bundle performance with systematic profiling | [Source](https://github.com/addyosmani/agent-skills/tree/main/skills/performance-optimization) |
+| **code-review-and-quality** | Enforce production-grade review criteria, maintainability, and quality gates | [Source](https://github.com/addyosmani/agent-skills/tree/main/skills/code-review-and-quality) |
+| **incremental-implementation** | Ship complex features as small validated slices to reduce risk and regressions | [Source](https://github.com/addyosmani/agent-skills/tree/main/skills/incremental-implementation) |
+| **planning-and-task-breakdown** | Convert broad goals into sequenced, executable engineering tasks | [Source](https://github.com/addyosmani/agent-skills/tree/main/skills/planning-and-task-breakdown) |
+| **swiftui-pro** | Advanced SwiftUI development patterns and implementation guidance for Apple platforms | [Source](https://github.com/twostraws/SwiftUI-Agent-Skill/tree/main/swiftui-pro) |
+| **swift-concurrency-pro** | Practical Swift Concurrency patterns for structured async code and correctness | [Source](https://github.com/twostraws/Swift-Concurrency-Agent-Skill/tree/main/swift-concurrency-pro) |
+| **react-components-stitch** | Generate robust React components using Stitch-oriented implementation patterns | [Source](https://github.com/google-labs-code/stitch-skills/tree/main/skills/react-components) |
 | **MCP Server** | Build Claude-compatible API connectors | [Source](https://github.com/anthropics/skills/tree/main/skills/mcp-builder) |
 | **Changelog Generator** | Create changelogs from commit history | [Source](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/changelog-generator) |
 | **using-git-worktrees** | Manage feature branches safely in isolated Git worktrees | [Source](https://github.com/obra/superpowers/tree/main/skills/using-git-worktrees) |
@@ -238,6 +248,8 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **simplification-cascades** | Reduce complexity by discovering insights that simplify multiple elements at once | [Source](https://github.com/obra/superpowers-skills/tree/main/skills/problem-solving/simplification-cascades) |
 | **tracing-knowledge-lineages** | Track how ideas evolve across iterations and influences | [Source](https://github.com/obra/superpowers-skills/tree/main/skills/research/tracing-knowledge-lineages) |
 | **think-deeply** | Prevents confirmatory answers by encouraging nuanced multi-perspective analysis for complex questions | [Source](https://github.com/brunoasm/my_claude_skills) |
+| **obsidian-markdown** | Structured markdown authoring and knowledge workflows optimized for Obsidian vaults | [Source](https://github.com/kepano/obsidian-skills/tree/main/skills/obsidian-markdown) |
+| **json-canvas** | Work with Obsidian JSON Canvas for visual knowledge mapping and linking | [Source](https://github.com/kepano/obsidian-skills/tree/main/skills/json-canvas) |
 
 ---
 
@@ -300,6 +312,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **sales-enablement** | Sales collateral and pitch deck creation for B2B teams | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/sales-enablement) |
 | **analytics-tracking** | Analytics setup and measurement implementation | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/analytics) |
 | **marketing-psychology** | Behavioral science application to marketing copy and UX | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/marketing-psychology) |
+| **seo-audit-full** | Deep technical and content SEO auditing workflow for comprehensive site/page analysis | [Source](https://github.com/JeffLi1993/seo-audit-skill/tree/main/seo-audit-full) |
 
 ---
 
@@ -362,6 +375,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **scaffold-exercises** | Scaffold structured exercise directories with sections, problems, solutions, and explainers | [Source](https://github.com/mattpocock/skills/tree/main/skills/misc/scaffold-exercises) |
 | **edit-article** | Assist with article editing and refinement workflows | [Source](https://github.com/mattpocock/skills/tree/main/skills/personal/edit-article) |
 | **obsidian-vault** | Work with and organize notes in an Obsidian vault | [Source](https://github.com/mattpocock/skills/tree/main/skills/personal/obsidian-vault) |
+| **obsidian-cli** | Use Obsidian CLI workflows to automate vault operations and content management | [Source](https://github.com/kepano/obsidian-skills/tree/main/skills/obsidian-cli) |
 
 ---
 
