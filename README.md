@@ -24,7 +24,7 @@ This repository gathers and organizes all publicly available Claude Skills, incl
 | 📚 Learning & Knowledge | 13 |
 | 🎨 Creative & Design | 9 |
 | 💼 Career & Job Search | 6 |
-| 🎥 Media & Content | 6 |
+| 🎥 Media & Content | 7 |
 | 🔬 Scientific & Research Tools | 5 |
 | 📊 Data & Analysis | 5 |
 | 📄 Document Skills | 5 |
@@ -263,6 +263,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **Video Downloader** | Download YouTube videos for use in Claude | [Source](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/video-downloader) |
 | **imagen** | Generate images using Google Gemini's image generation API for UI mockups, icons, and visual assets | [Source](https://github.com/sanjay3290/ai-skills/tree/main/skills/imagen) |
 | **typefully** | Official Typefully skill for creating and scheduling social media content across X, LinkedIn, Threads, Bluesky, and Mastodon | [Source](https://github.com/typefully/agent-skills) |
+| **socialclaw** | Social media scheduling and publishing for AI agents across X, LinkedIn, Instagram, Facebook Pages, TikTok, Discord, Telegram, YouTube, Reddit, WordPress, and Pinterest via one workspace API key | [Source](https://github.com/ndesv21/socialclaw) |
 
 ---
 
