@@ -11,7 +11,7 @@ This repository gathers and organizes all publicly available Claude Skills, incl
 
 ## 📈 Overview
 
-**204 skills** across **13 categories**:
+**205 skills** across **13 categories**:
 
 | Category | Skills |
 |----------|--------|
@@ -21,7 +21,7 @@ This repository gathers and organizes all publicly available Claude Skills, incl
 | 🤝 Collaboration & Project Management | 16 |
 | ⚙️ Utility & Automation | 23 |
 | 🔐 Security & Testing | 13 |
-| 📚 Learning & Knowledge | 13 |
+| 📚 Learning & Knowledge | 14 |
 | 🎨 Creative & Design | 9 |
 | 💼 Career & Job Search | 6 |
 | 🎥 Media & Content | 6 |
@@ -250,6 +250,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **think-deeply** | Prevents confirmatory answers by encouraging nuanced multi-perspective analysis for complex questions | [Source](https://github.com/brunoasm/my_claude_skills) |
 | **obsidian-markdown** | Structured markdown authoring and knowledge workflows optimized for Obsidian vaults | [Source](https://github.com/kepano/obsidian-skills/tree/main/skills/obsidian-markdown) |
 | **json-canvas** | Work with Obsidian JSON Canvas for visual knowledge mapping and linking | [Source](https://github.com/kepano/obsidian-skills/tree/main/skills/json-canvas) |
+| **teaching-skills** | University teaching-lifecycle suite for professors: course design, lessons, assessment, grading, and reflection (15 skills) | [Source](https://github.com/YujxZJCN/teaching-skills) |
 
 ---
 
