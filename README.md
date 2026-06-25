@@ -11,15 +11,15 @@ This repository gathers and organizes all publicly available Claude Skills, incl
 
 ## 📈 Overview
 
-**204 skills** across **13 categories**:
+**206 skills** across **13 categories**:
 
 | Category | Skills |
 |----------|--------|
 | 💻 Development & Code Tools | 66 |
-| 📣 Marketing & SEO | 20 |
+| 📣 Marketing & SEO | 21 |
 | 📝 Writing & Research | 17 |
 | 🤝 Collaboration & Project Management | 16 |
-| ⚙️ Utility & Automation | 23 |
+| ⚙️ Utility & Automation | 24 |
 | 🔐 Security & Testing | 13 |
 | 📚 Learning & Knowledge | 13 |
 | 🎨 Creative & Design | 9 |
@@ -313,6 +313,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **analytics-tracking** | Analytics setup and measurement implementation | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/analytics) |
 | **marketing-psychology** | Behavioral science application to marketing copy and UX | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/marketing-psychology) |
 | **seo-audit-full** | Deep technical and content SEO auditing workflow for comprehensive site/page analysis | [Source](https://github.com/JeffLi1993/seo-audit-skill/tree/main/seo-audit-full) |
+| **linkedin-growth** | Managed LinkedIn network-growth pipeline for qualified leads | [Source](https://github.com/Linked-API/linkedin-skills/tree/main/linkedin-growth) |
 
 ---
 
@@ -376,6 +377,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **edit-article** | Assist with article editing and refinement workflows | [Source](https://github.com/mattpocock/skills/tree/main/skills/personal/edit-article) |
 | **obsidian-vault** | Work with and organize notes in an Obsidian vault | [Source](https://github.com/mattpocock/skills/tree/main/skills/personal/obsidian-vault) |
 | **obsidian-cli** | Use Obsidian CLI workflows to automate vault operations and content management | [Source](https://github.com/kepano/obsidian-skills/tree/main/skills/obsidian-cli) |
+| **linkedin-skills** | General-purpose LinkedIn automation for AI agents | [Source](https://github.com/Linked-API/linkedin-skills/tree/main/linkedin) |
 
 ---
 
