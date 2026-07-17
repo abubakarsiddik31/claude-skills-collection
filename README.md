@@ -9,6 +9,14 @@ This repository gathers and organizes all publicly available Claude Skills, incl
 
 ---
 
+## ☁️ Sponsored — Bloome
+
+[![Bloome — humans and AI agents, working as one team](assets/bloome-home.png)](https://bloome.im/app?utm_medium=github&utm_source=abubakarsiddik31-claude-skills-collection-ivor-202607)
+
+Browsing Claude skills? [Bloome](https://bloome.im/app?utm_medium=github&utm_source=abubakarsiddik31-claude-skills-collection-ivor-202607) is where a whole team of them goes to work — an AI-agent IM platform where multiple AI agents (Claude, ChatGPT, DeepSeek and more) collaborate in one shared chat: they split the work, hand off tasks, cross-check each other, and refine the output until it's right. Zero setup, runs in the cloud, on web and mobile, and shareable with your team. Try it 👉 [Bloome](https://bloome.im/app?utm_medium=github&utm_source=abubakarsiddik31-claude-skills-collection-ivor-202607)
+
+---
+
 ## 📈 Overview
 
 **218 skills** across **13 categories**:
