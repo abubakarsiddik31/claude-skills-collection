@@ -11,7 +11,7 @@ This repository gathers and organizes all publicly available Claude Skills, incl
 
 ## 📈 Overview
 
-**219 skills** across **13 categories**:
+**220 skills** across **13 categories**:
 
 | Category | Skills |
 |----------|--------|
@@ -21,7 +21,7 @@ This repository gathers and organizes all publicly available Claude Skills, incl
 | 🤝 Collaboration & Project Management | 18 |
 | ⚙️ Utility & Automation | 25 |
 | 🔐 Security & Testing | 13 |
-| 📚 Learning & Knowledge | 14 |
+| 📚 Learning & Knowledge | 15 |
 | 🎨 Creative & Design | 9 |
 | 💼 Career & Job Search | 6 |
 | 🎥 Media & Content | 6 |
@@ -256,6 +256,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **simplification-cascades** | Reduce complexity by discovering insights that simplify multiple elements at once | [Source](https://github.com/obra/superpowers-skills/tree/main/skills/problem-solving/simplification-cascades) |
 | **tracing-knowledge-lineages** | Track how ideas evolve across iterations and influences | [Source](https://github.com/obra/superpowers-skills/tree/main/skills/research/tracing-knowledge-lineages) |
 | **think-deeply** | Prevents confirmatory answers by encouraging nuanced multi-perspective analysis for complex questions | [Source](https://github.com/brunoasm/my_claude_skills) |
+| **teaching-skills** | University teaching-lifecycle suite for course design, lessons, assessment, mentoring, and reflection | [Source](https://github.com/YujxZJCN/teaching-skills) |
 | **obsidian-markdown** | Structured markdown authoring and knowledge workflows optimized for Obsidian vaults | [Source](https://github.com/kepano/obsidian-skills/tree/main/skills/obsidian-markdown) |
 | **json-canvas** | Work with Obsidian JSON Canvas for visual knowledge mapping and linking | [Source](https://github.com/kepano/obsidian-skills/tree/main/skills/json-canvas) |
 | **teach** | Learn a concept over multiple sessions using the current directory as a stateful workspace with glossary, missions, and resources | [Source](https://github.com/mattpocock/skills/tree/main/skills/productivity/teach) |
