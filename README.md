@@ -11,11 +11,11 @@ This repository gathers and organizes all publicly available Claude Skills, incl
 
 ## 📈 Overview
 
-**226 skills** across **13 categories**:
+**227 skills** across **13 categories**:
 
 | Category | Skills |
 |----------|--------|
-| 💻 Development & Code Tools | 74 |
+| 💻 Development & Code Tools | 75 |
 | 📣 Marketing & SEO | 20 |
 | 📝 Writing & Research | 20 |
 | 🤝 Collaboration & Project Management | 19 |
@@ -189,6 +189,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **context-engineering-kit** | Advanced context engineering with multi-agent patterns, reflexion loops, and domain-driven development | [Source](https://github.com/NeoLabHQ/context-engineering-kit) |
 | **compound-engineering-plugin** | Pragmatic engineering plugin with ideation, planning, execution, multi-agent review, and knowledge compounding | [Source](https://github.com/EveryInc/compound-engineering-plugin) |
 | **vscode-extension-builder** | Scaffolds, compiles, packages, and installs a working VS Code extension end-to-end from a single request — command extensions, color themes, and snippet packs | [Source](https://github.com/SuryaPrakashPandurangi/vscode-extension-builder) |
+| **do** (senior-by-default) | Multi-actor implementation pipeline that routes a plain-language task by complexity: Opus plans and reviews, Sonnet implements, Haiku handles trivial mechanical edits, with gated review (PR size, dep-vuln, i18n, contract, zero-downtime migration audit) before a PR is opened. Runs only on an explicit `/do` invocation; commits, pushes, and merges stay behind confirmation gates | [Source](https://github.com/mitiay7/senior-by-default/blob/main/skills/do/SKILL.md) |
 
 ---
 
