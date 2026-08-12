@@ -11,12 +11,12 @@ This repository gathers and organizes all publicly available Claude Skills, incl
 
 ## 📈 Overview
 
-**218 skills** across **13 categories**:
+**219 skills** across **13 categories**:
 
 | Category | Skills |
 |----------|--------|
 | 💻 Development & Code Tools | 72 |
-| 📣 Marketing & SEO | 20 |
+| 📣 Marketing & SEO | 21 |
 | 📝 Writing & Research | 20 |
 | 🤝 Collaboration & Project Management | 18 |
 | ⚙️ Utility & Automation | 25 |
@@ -324,6 +324,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **sales-enablement** | Sales collateral and pitch deck creation for B2B teams | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/sales-enablement) |
 | **analytics-tracking** | Analytics setup and measurement implementation | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/analytics) |
 | **marketing-psychology** | Behavioral science application to marketing copy and UX | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/marketing-psychology) |
+| **vibe-prospecting** | B2B company and contact prospecting with structured enrichment, events, and sample-first retrieval | [Source](https://github.com/explorium-ai/vibeprospecting-plugin/tree/main/skills/vibe-prospecting) |
 | **seo-audit-full** | Deep technical and content SEO auditing workflow for comprehensive site/page analysis | [Source](https://github.com/JeffLi1993/seo-audit-skill/tree/main/seo-audit-full) |
 
 ---
