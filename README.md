@@ -11,22 +11,22 @@ This repository gathers and organizes all publicly available Claude Skills, incl
 
 ## 📈 Overview
 
-**219 skills** across **13 categories**:
+**226 skills** across **13 categories**:
 
 | Category | Skills |
 |----------|--------|
-| 💻 Development & Code Tools | 73 |
+| 💻 Development & Code Tools | 74 |
 | 📣 Marketing & SEO | 20 |
 | 📝 Writing & Research | 20 |
-| 🤝 Collaboration & Project Management | 18 |
-| ⚙️ Utility & Automation | 25 |
-| 🔐 Security & Testing | 13 |
+| 🤝 Collaboration & Project Management | 19 |
+| ⚙️ Utility & Automation | 27 |
+| 🔐 Security & Testing | 15 |
 | 📚 Learning & Knowledge | 14 |
 | 🎨 Creative & Design | 9 |
 | 💼 Career & Job Search | 6 |
 | 🎥 Media & Content | 6 |
 | 🔬 Scientific & Research Tools | 5 |
-| 📊 Data & Analysis | 5 |
+| 📊 Data & Analysis | 6 |
 | 📄 Document Skills | 5 |
 
 ---
@@ -116,6 +116,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | Name | Description | Link |
 |------|-------------|------|
 | **code-review** | Two-axis review of changes since a fixed point — Standards (coding standards) and Spec (originating issue/PRD) — run in parallel sub-agents | [Source](https://github.com/mattpocock/skills/tree/main/skills/engineering/code-review) |
+| **claude-api** | Official Anthropic guidance for building, debugging, and optimizing Claude API applications, including tool use, prompt caching, batches, files, citations, and memory | [Source](https://github.com/anthropics/skills/tree/main/skills/claude-api) |
 | **codebase-design** | Shared vocabulary for designing deep modules — lots of behaviour behind a small interface at a clean seam | [Source](https://github.com/mattpocock/skills/tree/main/skills/engineering/codebase-design) |
 | **diagnosing-bugs** | Disciplined diagnosis loop for hard bugs and performance regressions: reproduce, minimize, hypothesize, instrument, fix, and regression-test | [Source](https://github.com/mattpocock/skills/tree/main/skills/engineering/diagnosing-bugs) |
 | **domain-modeling** | Build and sharpen a project's domain model with ubiquitous language, glossary entries, and architectural decision records | [Source](https://github.com/mattpocock/skills/tree/main/skills/engineering/domain-modeling) |
@@ -200,6 +201,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **postgres** | Execute safe read-only SQL queries against PostgreSQL databases with multi-connection support | [Source](https://github.com/sanjay3290/ai-skills/tree/main/skills/postgres) |
 | **read-only-postgres** | Safe read-only PostgreSQL queries with multi-connection support and defense-in-depth security | [Source](https://github.com/jawwadfirdousi/agent-skills) |
 | **prompt-template-wizard** | Converts incomplete feature/bug requests into complete structured prompt templates | [Source](https://github.com/jawwadfirdousi/agent-skills) |
+| **monte-carlo-agent-toolkit** | Official data and agent observability skills for monitoring, triage, troubleshooting, and health checks | [Source](https://github.com/monte-carlo-data/mc-agent-toolkit) |
 
 ---
 
@@ -359,6 +361,8 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **security-fuzzing** | Essential fuzzing payloads for SQL injection, command injection, NoSQL injection, and LDAP injection testing | [Source](https://github.com/Eyadkelleh/awesome-claude-skills-security) |
 | **security-payloads** | Specialized attack payloads for XSS vectors, XXE, template injection, and file upload bypass testing | [Source](https://github.com/Eyadkelleh/awesome-claude-skills-security) |
 | **llm-testing** | AI/ML security testing including bias detection, data leakage, alignment testing, and adversarial resistance | [Source](https://github.com/Eyadkelleh/awesome-claude-skills-security) |
+| **accessibility-skills** | Accessibility guidance for accessible interfaces, including forms, keyboard use, color contrast, and light/dark modes | [Source](https://github.com/mgifford/accessibility-skills) |
+| **security-hardening** | Portable defensive security workflow covering secure design and review, OWASP, MCP security, prompt injection, incident response, and hardening | [Source](https://github.com/imnotStealthy/security-hardening) |
 
 ---
 
@@ -377,7 +381,9 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **gardening-skills-wiki** | Maintain the skills wiki, ensuring naming consistency and metadata quality | [Source](https://github.com/obra/superpowers-skills/tree/main/skills/meta/gardening-skills-wiki) |
 | **pulling-updates-from-skills-repository** | Sync and pull the latest skill updates from repositories | [Source](https://github.com/obra/superpowers-skills/tree/main/skills/meta/pulling-updates-from-skills-repository) |
 | **cc-devops-skills** | 31 DevOps skills covering IaC, CI/CD, Kubernetes, observability, and scripting automation | [Source](https://github.com/akin-ozer/cc-devops-skills) |
+| **opentelemetry-skills** | Instrumentation, telemetry-quality, collector, semantic-convention, and OTTL guidance for observable applications | [Source](https://github.com/dash0hq/agent-skills) |
 | **devops-claude-skills** | DevOps workflow skills for Terraform, K8s troubleshooting, AWS cost optimization, and GitOps | [Source](https://github.com/ahmedasmar/devops-claude-skills) |
+| **aws-well-architected-review** | Reusable playbooks for applying the AWS Well-Architected Framework to architecture reviews and improvement plans | [Source](https://github.com/aws-samples/sample-well-architected-skills-and-steering) |
 | **firecrawl-cli** | Official Firecrawl skill for scraping, crawling, searching, and mapping the web via CLI | [Source](https://github.com/firecrawl/cli) |
 | **hermes-tweet** | Native Hermes Agent plugin skill for X monitoring, account research, trend checks, and approval-gated social actions. Xquik is an independent third-party service. Not affiliated with X Corp. "Twitter" and "X" are trademarks of X Corp. | [Source](https://github.com/Xquik-dev/hermes-tweet/blob/master/skills/hermes-tweet/SKILL.md) |
 | **replicate** | Official Replicate skill for discovering, comparing, and running AI models via API | [Source](https://github.com/replicate/skills) |
@@ -396,11 +402,49 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 
 ## Getting Started
 
-To use a skill:
-1. Clone the [Anthropic Claude Skills](https://github.com/anthropics/skills) repo.
-2. Enable Code Execution and Skill loading in Claude.
-3. Upload the skill folder (or link to a Git repo with an `SKILL.md`).
-4. Ask Claude to activate or use the skill!
+### Install across supported agents
+
+Skills use the portable `SKILL.md` format. The open-source [Skills CLI](https://github.com/vercel-labs/skills) installs compatible skills for 70+ coding agents, including Claude Code, Codex, Z.ai's ZCode, Cursor, GitHub Copilot, Gemini CLI, and OpenCode. Copy a source link from a row above, then list and install only the skill you want:
+
+```bash
+# Inspect the skill names available from a source repository.
+npx skills add https://github.com/anthropics/skills --list
+
+# Try a skill without installing it (replace the agent ID as needed).
+npx skills use https://github.com/anthropics/skills --skill claude-api --agent claude-code
+
+# Install a specific skill for the current project (the default scope).
+npx skills add https://github.com/anthropics/skills/tree/main/skills/claude-api --agent claude-code
+
+# Make it available in every project, or install it for another supported agent.
+npx skills add https://github.com/anthropics/skills/tree/main/skills/claude-api --agent codex --global
+```
+
+| Tool | Skills CLI agent ID | Project path | Global path |
+|------|---------------------|--------------|-------------|
+| Claude Code | `claude-code` | `.claude/skills/` | `~/.claude/skills/` |
+| Codex | `codex` | `.agents/skills/` | `~/.codex/skills/` |
+| Z.ai ZCode | `zcode` | `.zcode/skills/` | `~/.zcode/skills/` |
+| Cursor | `cursor` | `.agents/skills/` | `~/.cursor/skills/` |
+| GitHub Copilot | `github-copilot` | `.agents/skills/` | `~/.copilot/skills/` |
+| Gemini CLI | `gemini-cli` | `.agents/skills/` | `~/.gemini/skills/` |
+
+For ZCode, you can also use **Settings → Skills → Import** to scan and import skills already installed for Claude Code, Codex, and other supported agents. For a tool not listed here, place the skill directory containing `SKILL.md` in that tool's documented project or user skills folder, then refresh/restart the tool.
+
+Use the interactive prompts to choose the installation method and review the files. Do not use `--all` or `-y` unless you have inspected and trust every selected skill. To check installed skills or refresh them later:
+
+```bash
+npx skills list
+npx skills update
+```
+
+### Let an agent tailor the selection
+
+Paste this into Claude Code, Codex, ZCode, or another coding agent from inside your project:
+
+> Audit this repository read-only and recommend a small, personalized set of skills from https://github.com/abubakarsiddik31/claude-skills-collection. Match the recommendations to the stack, workflows, and current pain points. Exclude NSFW content and programming-language-specific skills. For each recommendation, show the source URL, the exact skill name, prerequisites, data/credential implications, and why it fits. Inspect the skill files before recommending installation. Do not install, change configuration, or use non-interactive flags until I explicitly approve the exact list.
+
+After you approve the list, ask the agent to install the selected skills at **project scope** for shared team workflows or **global scope** for a personal toolkit. Name your host explicitly—for example `claude-code`, `codex`, or `zcode`—and pin a source revision when reproducibility matters.
 
 ---
 
