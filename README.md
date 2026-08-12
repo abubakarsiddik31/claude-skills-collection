@@ -400,23 +400,34 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 
 ## Getting Started
 
-### Install a skill in a few commands
+### Install across supported agents
 
-The open-source [Skills CLI](https://github.com/vercel-labs/skills) installs compatible skills for Claude Code, Codex, Cursor, and other supported agents. Copy a source link from a row above, then list and install only the skill you want:
+Skills use the portable `SKILL.md` format. The open-source [Skills CLI](https://github.com/vercel-labs/skills) installs compatible skills for 70+ coding agents, including Claude Code, Codex, Z.ai's ZCode, Cursor, GitHub Copilot, Gemini CLI, and OpenCode. Copy a source link from a row above, then list and install only the skill you want:
 
 ```bash
 # Inspect the skill names available from a source repository.
 npx skills add https://github.com/anthropics/skills --list
 
-# Try a skill in Claude Code without installing it.
+# Try a skill without installing it (replace the agent ID as needed).
 npx skills use https://github.com/anthropics/skills --skill claude-api --agent claude-code
 
 # Install a specific skill for the current project (the default scope).
 npx skills add https://github.com/anthropics/skills/tree/main/skills/claude-api --agent claude-code
 
-# Make it available in every project, or target Codex instead.
+# Make it available in every project, or install it for another supported agent.
 npx skills add https://github.com/anthropics/skills/tree/main/skills/claude-api --agent codex --global
 ```
+
+| Tool | Skills CLI agent ID | Project path | Global path |
+|------|---------------------|--------------|-------------|
+| Claude Code | `claude-code` | `.claude/skills/` | `~/.claude/skills/` |
+| Codex | `codex` | `.agents/skills/` | `~/.codex/skills/` |
+| Z.ai ZCode | `zcode` | `.zcode/skills/` | `~/.zcode/skills/` |
+| Cursor | `cursor` | `.agents/skills/` | `~/.cursor/skills/` |
+| GitHub Copilot | `github-copilot` | `.agents/skills/` | `~/.copilot/skills/` |
+| Gemini CLI | `gemini-cli` | `.agents/skills/` | `~/.gemini/skills/` |
+
+For ZCode, you can also use **Settings → Skills → Import** to scan and import skills already installed for Claude Code, Codex, and other supported agents. For a tool not listed here, place the skill directory containing `SKILL.md` in that tool's documented project or user skills folder, then refresh/restart the tool.
 
 Use the interactive prompts to choose the installation method and review the files. Do not use `--all` or `-y` unless you have inspected and trust every selected skill. To check installed skills or refresh them later:
 
@@ -427,11 +438,11 @@ npx skills update
 
 ### Let an agent tailor the selection
 
-Paste this into Claude Code, Codex, or another coding agent from inside your project:
+Paste this into Claude Code, Codex, ZCode, or another coding agent from inside your project:
 
 > Audit this repository read-only and recommend a small, personalized set of skills from https://github.com/abubakarsiddik31/claude-skills-collection. Match the recommendations to the stack, workflows, and current pain points. Exclude NSFW content and programming-language-specific skills. For each recommendation, show the source URL, the exact skill name, prerequisites, data/credential implications, and why it fits. Inspect the skill files before recommending installation. Do not install, change configuration, or use non-interactive flags until I explicitly approve the exact list.
 
-After you approve the list, ask the agent to install the selected skills at **project scope** for shared team workflows or **global scope** for a personal toolkit. Pin a source revision when reproducibility matters.
+After you approve the list, ask the agent to install the selected skills at **project scope** for shared team workflows or **global scope** for a personal toolkit. Name your host explicitly—for example `claude-code`, `codex`, or `zcode`—and pin a source revision when reproducibility matters.
 
 ---
 
