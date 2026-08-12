@@ -373,12 +373,12 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **raffle-winner-picker** | Pick winners using secure randomness | [Source](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/raffle-winner-picker) |
 | **skill-creator** | Build your own skill interactively | [Source](https://github.com/anthropics/skills/tree/main/skills/skill-creator) |
 | **template-skill** | A starting template for new skills | [Source](https://github.com/anthropics/skills/tree/main/template) |
-| **using-superpowers** | Automate Superpowers workflows and validation tasks | [Source](https://github.com/obra/superpowers/tree/main/skills/using-superpowers) |
 | **gardening-skills-wiki** | Maintain the skills wiki, ensuring naming consistency and metadata quality | [Source](https://github.com/obra/superpowers-skills/tree/main/skills/meta/gardening-skills-wiki) |
 | **pulling-updates-from-skills-repository** | Sync and pull the latest skill updates from repositories | [Source](https://github.com/obra/superpowers-skills/tree/main/skills/meta/pulling-updates-from-skills-repository) |
 | **cc-devops-skills** | 31 DevOps skills covering IaC, CI/CD, Kubernetes, observability, and scripting automation | [Source](https://github.com/akin-ozer/cc-devops-skills) |
 | **devops-claude-skills** | DevOps workflow skills for Terraform, K8s troubleshooting, AWS cost optimization, and GitOps | [Source](https://github.com/ahmedasmar/devops-claude-skills) |
 | **firecrawl-cli** | Official Firecrawl skill for scraping, crawling, searching, and mapping the web via CLI | [Source](https://github.com/firecrawl/cli) |
+| **hermes-tweet** | Native Hermes Agent plugin skill for X monitoring, account research, trend checks, and approval-gated social actions. Xquik is an independent third-party service. Not affiliated with X Corp. "Twitter" and "X" are trademarks of X Corp. | [Source](https://github.com/Xquik-dev/hermes-tweet/blob/master/skills/hermes-tweet/SKILL.md) |
 | **replicate** | Official Replicate skill for discovering, comparing, and running AI models via API | [Source](https://github.com/replicate/skills) |
 | **agentsys** | 36 workflow automation skills for profiling, code review, AI consultation, release management, and drift analysis | [Source](https://github.com/avifenesh/agentsys) |
 | **better-i18n** | Official i18n skill for internationalization best practices, translation workflows, and localization automation | [Source](https://github.com/better-i18n/skills) |
