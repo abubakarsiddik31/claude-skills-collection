@@ -11,17 +11,17 @@ This repository gathers and organizes all publicly available Claude Skills, incl
 
 ## 📈 Overview
 
-**222 skills** across **13 categories**:
+**218 skills** across **13 categories**:
 
 | Category | Skills |
 |----------|--------|
 | 💻 Development & Code Tools | 72 |
-| 📣 Marketing & SEO | 22 |
+| 📣 Marketing & SEO | 20 |
 | 📝 Writing & Research | 20 |
 | 🤝 Collaboration & Project Management | 18 |
-| ⚙️ Utility & Automation | 26 |
+| ⚙️ Utility & Automation | 25 |
 | 🔐 Security & Testing | 13 |
-| 📚 Learning & Knowledge | 15 |
+| 📚 Learning & Knowledge | 14 |
 | 🎨 Creative & Design | 9 |
 | 💼 Career & Job Search | 6 |
 | 🎥 Media & Content | 6 |
@@ -256,7 +256,6 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **simplification-cascades** | Reduce complexity by discovering insights that simplify multiple elements at once | [Source](https://github.com/obra/superpowers-skills/tree/main/skills/problem-solving/simplification-cascades) |
 | **tracing-knowledge-lineages** | Track how ideas evolve across iterations and influences | [Source](https://github.com/obra/superpowers-skills/tree/main/skills/research/tracing-knowledge-lineages) |
 | **think-deeply** | Prevents confirmatory answers by encouraging nuanced multi-perspective analysis for complex questions | [Source](https://github.com/brunoasm/my_claude_skills) |
-| **teaching-skills** | University teaching-lifecycle suite for course design, lessons, assessment, mentoring, and reflection | [Source](https://github.com/YujxZJCN/teaching-skills) |
 | **obsidian-markdown** | Structured markdown authoring and knowledge workflows optimized for Obsidian vaults | [Source](https://github.com/kepano/obsidian-skills/tree/main/skills/obsidian-markdown) |
 | **json-canvas** | Work with Obsidian JSON Canvas for visual knowledge mapping and linking | [Source](https://github.com/kepano/obsidian-skills/tree/main/skills/json-canvas) |
 | **teach** | Learn a concept over multiple sessions using the current directory as a stateful workspace with glossary, missions, and resources | [Source](https://github.com/mattpocock/skills/tree/main/skills/productivity/teach) |
@@ -325,8 +324,6 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **sales-enablement** | Sales collateral and pitch deck creation for B2B teams | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/sales-enablement) |
 | **analytics-tracking** | Analytics setup and measurement implementation | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/analytics) |
 | **marketing-psychology** | Behavioral science application to marketing copy and UX | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/marketing-psychology) |
-| **vibe-prospecting** | B2B company and contact prospecting with structured enrichment, events, and sample-first retrieval | [Source](https://github.com/explorium-ai/vibeprospecting-plugin/tree/main/skills/vibe-prospecting) |
-| **linkedin-growth** | Managed LinkedIn network-growth pipeline for qualified leads | [Source](https://github.com/Linked-API/linkedin-skills/tree/main/linkedin-growth) |
 | **seo-audit-full** | Deep technical and content SEO auditing workflow for comprehensive site/page analysis | [Source](https://github.com/JeffLi1993/seo-audit-skill/tree/main/seo-audit-full) |
 
 ---
@@ -385,7 +382,6 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **replicate** | Official Replicate skill for discovering, comparing, and running AI models via API | [Source](https://github.com/replicate/skills) |
 | **agentsys** | 36 workflow automation skills for profiling, code review, AI consultation, release management, and drift analysis | [Source](https://github.com/avifenesh/agentsys) |
 | **better-i18n** | Official i18n skill for internationalization best practices, translation workflows, and localization automation | [Source](https://github.com/better-i18n/skills) |
-| **linkedin** | General-purpose LinkedIn automation for AI agents | [Source](https://github.com/Linked-API/linkedin-skills/tree/main/linkedin) |
 | **migrate-to-shoehorn** | Migrate test assertions to @total-typescript/shoehorn patterns | [Source](https://github.com/mattpocock/skills/tree/main/skills/misc/migrate-to-shoehorn) |
 | **scaffold-exercises** | Scaffold structured exercise directories with sections, problems, solutions, and explainers | [Source](https://github.com/mattpocock/skills/tree/main/skills/misc/scaffold-exercises) |
 | **edit-article** | Assist with article editing and refinement workflows | [Source](https://github.com/mattpocock/skills/tree/main/skills/personal/edit-article) |
