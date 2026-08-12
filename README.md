@@ -279,6 +279,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 
 | Name | Description | Link |
 |------|-------------|------|
+| **agent-workflow-pack** | Package repeatable AI coding workflows into SKILL.md, templates, and verification checks | [Source](https://github.com/MemoAsh/agent-workflow-pack/tree/main/skills/pr-review-workflow) |
 | **grill-me** | Structured questioning workflow to pressure-test plans and designs before execution | [Source](https://github.com/mattpocock/skills/tree/main/skills/productivity/grill-me) |
 | **handoff** | Generate concise handoff documentation so another agent can continue work seamlessly | [Source](https://github.com/mattpocock/skills/tree/main/skills/productivity/handoff) |
 | **grilling** | Grill the user relentlessly about a plan or design — one question at a time with a recommended answer | [Source](https://github.com/mattpocock/skills/tree/main/skills/productivity/grilling) |
