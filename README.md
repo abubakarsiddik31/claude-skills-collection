@@ -11,14 +11,14 @@ This repository gathers and organizes all publicly available Claude Skills, incl
 
 ## 📈 Overview
 
-**224 skills** across **13 categories**:
+**226 skills** across **13 categories**:
 
 | Category | Skills |
 |----------|--------|
-| 💻 Development & Code Tools | 73 |
+| 💻 Development & Code Tools | 74 |
 | 📣 Marketing & SEO | 20 |
 | 📝 Writing & Research | 20 |
-| 🤝 Collaboration & Project Management | 18 |
+| 🤝 Collaboration & Project Management | 19 |
 | ⚙️ Utility & Automation | 27 |
 | 🔐 Security & Testing | 15 |
 | 📚 Learning & Knowledge | 14 |
@@ -47,20 +47,20 @@ These are commonly requested, high-impact skills to start with:
 
 - [What Are Claude Skills?](#what-are-claude-skills)
 - [🔥 Popular Picks](#-popular-picks)
-- [Categories](#categories)
-  - [📄 Document Skills](#document-skills)
-  - [🎨 Creative & Design](#creative--design)
-  - [💻 Development & Code Tools](#development--code-tools)
-  - [📊 Data & Analysis](#data--analysis)
-  - [🔬 Scientific & Research Tools](#scientific--research-tools)
-  - [📝 Writing & Research](#writing--research)
-  - [📚 Learning & Knowledge](#learning--knowledge)
-  - [🎥 Media & Content](#media--content)
-  - [🤝 Collaboration & Project Management](#collaboration--project-management)
-  - [📣 Marketing & SEO](#marketing--seo)
-  - [💼 Career & Job Search](#career--job-search)
-  - [🔐 Security & Testing](#security--testing)
-  - [⚙️ Utility & Automation](#utility--automation)
+- **Categories**
+  - [📄 Document Skills](#-document-skills)
+  - [🎨 Creative & Design](#-creative--design)
+  - [💻 Development & Code Tools](#-development--code-tools)
+  - [📊 Data & Analysis](#-data--analysis)
+  - [🔬 Scientific & Research Tools](#-scientific--research-tools)
+  - [📝 Writing & Research](#-writing--research)
+  - [📚 Learning & Knowledge](#-learning--knowledge)
+  - [🎥 Media & Content](#-media--content)
+  - [🤝 Collaboration & Project Management](#-collaboration--project-management)
+  - [📣 Marketing & SEO](#-marketing--seo)
+  - [💼 Career & Job Search](#-career--job-search)
+  - [🔐 Security & Testing](#-security--testing)
+  - [⚙️ Utility & Automation](#️-utility--automation)
 - [Getting Started](#getting-started)
 - [Skill Quality Standards & Template](#skill-quality-standards--template)
 - [Contributing](#contributing)
@@ -188,6 +188,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **claude-a11y-skill** | Comprehensive accessibility audits combining axe-core and eslint-plugin-jsx-a11y against WCAG 2.1 | [Source](https://github.com/airowe/claude-a11y-skill) |
 | **context-engineering-kit** | Advanced context engineering with multi-agent patterns, reflexion loops, and domain-driven development | [Source](https://github.com/NeoLabHQ/context-engineering-kit) |
 | **compound-engineering-plugin** | Pragmatic engineering plugin with ideation, planning, execution, multi-agent review, and knowledge compounding | [Source](https://github.com/EveryInc/compound-engineering-plugin) |
+| **vscode-extension-builder** | Scaffolds, compiles, packages, and installs a working VS Code extension end-to-end from a single request — command extensions, color themes, and snippet packs | [Source](https://github.com/SuryaPrakashPandurangi/vscode-extension-builder) |
 
 ---
 
@@ -281,6 +282,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 
 | Name | Description | Link |
 |------|-------------|------|
+| **agent-workflow-pack** | Package repeatable AI coding workflows into SKILL.md, templates, and verification checks | [Source](https://github.com/MemoAsh/agent-workflow-pack/tree/main/skills/pr-review-workflow) |
 | **grill-me** | Structured questioning workflow to pressure-test plans and designs before execution | [Source](https://github.com/mattpocock/skills/tree/main/skills/productivity/grill-me) |
 | **handoff** | Generate concise handoff documentation so another agent can continue work seamlessly | [Source](https://github.com/mattpocock/skills/tree/main/skills/productivity/handoff) |
 | **grilling** | Grill the user relentlessly about a plan or design — one question at a time with a recommended answer | [Source](https://github.com/mattpocock/skills/tree/main/skills/productivity/grilling) |
@@ -376,7 +378,6 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **raffle-winner-picker** | Pick winners using secure randomness | [Source](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/raffle-winner-picker) |
 | **skill-creator** | Build your own skill interactively | [Source](https://github.com/anthropics/skills/tree/main/skills/skill-creator) |
 | **template-skill** | A starting template for new skills | [Source](https://github.com/anthropics/skills/tree/main/template) |
-| **using-superpowers** | Automate Superpowers workflows and validation tasks | [Source](https://github.com/obra/superpowers/tree/main/skills/using-superpowers) |
 | **gardening-skills-wiki** | Maintain the skills wiki, ensuring naming consistency and metadata quality | [Source](https://github.com/obra/superpowers-skills/tree/main/skills/meta/gardening-skills-wiki) |
 | **pulling-updates-from-skills-repository** | Sync and pull the latest skill updates from repositories | [Source](https://github.com/obra/superpowers-skills/tree/main/skills/meta/pulling-updates-from-skills-repository) |
 | **cc-devops-skills** | 31 DevOps skills covering IaC, CI/CD, Kubernetes, observability, and scripting automation | [Source](https://github.com/akin-ozer/cc-devops-skills) |
@@ -384,6 +385,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **devops-claude-skills** | DevOps workflow skills for Terraform, K8s troubleshooting, AWS cost optimization, and GitOps | [Source](https://github.com/ahmedasmar/devops-claude-skills) |
 | **aws-well-architected-review** | Reusable playbooks for applying the AWS Well-Architected Framework to architecture reviews and improvement plans | [Source](https://github.com/aws-samples/sample-well-architected-skills-and-steering) |
 | **firecrawl-cli** | Official Firecrawl skill for scraping, crawling, searching, and mapping the web via CLI | [Source](https://github.com/firecrawl/cli) |
+| **hermes-tweet** | Native Hermes Agent plugin skill for X monitoring, account research, trend checks, and approval-gated social actions. Xquik is an independent third-party service. Not affiliated with X Corp. "Twitter" and "X" are trademarks of X Corp. | [Source](https://github.com/Xquik-dev/hermes-tweet/blob/master/skills/hermes-tweet/SKILL.md) |
 | **replicate** | Official Replicate skill for discovering, comparing, and running AI models via API | [Source](https://github.com/replicate/skills) |
 | **agentsys** | 36 workflow automation skills for profiling, code review, AI consultation, release management, and drift analysis | [Source](https://github.com/avifenesh/agentsys) |
 | **better-i18n** | Official i18n skill for internationalization best practices, translation workflows, and localization automation | [Source](https://github.com/better-i18n/skills) |
