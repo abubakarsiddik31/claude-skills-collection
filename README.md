@@ -7,6 +7,14 @@ This repository gathers and organizes all publicly available Claude Skills, incl
 
 > 💡 **Note**: Skills require Claude Pro, Max, Team, or Enterprise access with code execution enabled.
 
+## 🧰 Featured Tool: Skill Manager
+
+If you use skills across more than one coding agent, [Skill Manager](https://abubakarsiddik31.github.io/skill-manager/) gives you one dashboard to discover, enable, disable, edit, and delete them across Claude Code, Codex, Cursor, and OpenCode. [Download it here](https://abubakarsiddik31.github.io/skill-manager/); view the [source on GitHub](https://github.com/abubakarsiddik31/skill-manager).
+
+<a href="https://abubakarsiddik31.github.io/skill-manager/">
+  <img src="https://raw.githubusercontent.com/abubakarsiddik31/skill-manager/main/docs/banner.svg" alt="Skill Manager — one dashboard to manage every AI coding agent skill you've installed" width="100%" />
+</a>
+
 ---
 
 ## 📈 Overview
@@ -46,6 +54,7 @@ These are commonly requested, high-impact skills to start with:
 ## 📚 Table of Contents
 
 - [What Are Claude Skills?](#what-are-claude-skills)
+- [🧰 Featured Tool: Skill Manager](#-featured-tool-skill-manager)
 - [🔥 Popular Picks](#-popular-picks)
 - **Categories**
   - [📄 Document Skills](#-document-skills)
