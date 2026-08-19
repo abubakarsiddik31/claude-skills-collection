@@ -19,7 +19,7 @@ If you use skills across more than one coding agent, [Skill Manager](https://abu
 
 ## 📈 Overview
 
-**227 skills** across **13 categories**:
+**228 skills** across **13 categories**:
 
 | Category | Skills |
 |----------|--------|
@@ -27,7 +27,7 @@ If you use skills across more than one coding agent, [Skill Manager](https://abu
 | 📣 Marketing & SEO | 21 |
 | 📝 Writing & Research | 20 |
 | 🤝 Collaboration & Project Management | 19 |
-| ⚙️ Utility & Automation | 27 |
+| ⚙️ Utility & Automation | 28 |
 | 🔐 Security & Testing | 15 |
 | 📚 Learning & Knowledge | 14 |
 | 🎨 Creative & Design | 9 |
@@ -407,6 +407,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **wizard** | Generate an interactive bash wizard that walks a human through a manual procedure — opening URLs, capturing values, confirming each step | [Source](https://github.com/mattpocock/skills/tree/main/skills/in-progress/wizard) |
 | **setup-ts-deep-modules** | Wire dependency-cruiser into a TypeScript repo so each package is a deep module with a small public surface | [Source](https://github.com/mattpocock/skills/tree/main/skills/in-progress/setup-ts-deep-modules) |
 | **claude-handoff** | Hand the current conversation off to a fresh background agent that picks up the work immediately | [Source](https://github.com/mattpocock/skills/tree/main/skills/in-progress/claude-handoff) |
+| **danshari-skill (断舍离.skill)** | Audits every skill you have installed and archives the ones your current model, harness, or MCP servers already cover — three-way triage, blind-test evidence before any removal, and one-command restore instead of `rm` | [Source](https://github.com/swaylq/danshari-skill) |
 
 ---
 
