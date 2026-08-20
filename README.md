@@ -19,7 +19,7 @@ If you use skills across more than one coding agent, [Skill Manager](https://abu
 
 ## 📈 Overview
 
-**227 skills** across **13 categories**:
+**228 skills** across **13 categories**:
 
 | Category | Skills |
 |----------|--------|
@@ -27,7 +27,7 @@ If you use skills across more than one coding agent, [Skill Manager](https://abu
 | 📣 Marketing & SEO | 21 |
 | 📝 Writing & Research | 20 |
 | 🤝 Collaboration & Project Management | 19 |
-| ⚙️ Utility & Automation | 27 |
+| ⚙️ Utility & Automation | 28 |
 | 🔐 Security & Testing | 15 |
 | 📚 Learning & Knowledge | 14 |
 | 🎨 Creative & Design | 9 |
@@ -407,6 +407,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **wizard** | Generate an interactive bash wizard that walks a human through a manual procedure — opening URLs, capturing values, confirming each step | [Source](https://github.com/mattpocock/skills/tree/main/skills/in-progress/wizard) |
 | **setup-ts-deep-modules** | Wire dependency-cruiser into a TypeScript repo so each package is a deep module with a small public surface | [Source](https://github.com/mattpocock/skills/tree/main/skills/in-progress/setup-ts-deep-modules) |
 | **claude-handoff** | Hand the current conversation off to a fresh background agent that picks up the work immediately | [Source](https://github.com/mattpocock/skills/tree/main/skills/in-progress/claude-handoff) |
+| **sijiao-skill (私教.skill)** | Distils any skill you want to learn into a stateful tutor — it remembers where you are, sets and grades exercises at your level, and schedules spaced review, with the ceiling honestly capped at competent | [Source](https://github.com/swaylq/sijiao-skill) |
 
 ---
 
