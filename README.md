@@ -250,6 +250,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **writing-fragments** | Mine raw fragments through relentless grilling — pure explore mode with no structure imposed | [Source](https://github.com/mattpocock/skills/tree/main/skills/in-progress/writing-fragments) |
 | **writing-beats** | Assemble raw material into a journey of beats, grounding each term before a beat leans on it | [Source](https://github.com/mattpocock/skills/tree/main/skills/in-progress/writing-beats) |
 | **writing-shape** | Shape raw material into an article, paragraph by paragraph, from a pile of notes or fragments | [Source](https://github.com/mattpocock/skills/tree/main/skills/in-progress/writing-shape) |
+| **humanize-chinese** | Detect and rewrite AI-generated Chinese text — scene-aware detection (rule categories + statistical features + logistic-regression fusion) then rewriting that drops the AI score, with 8 style transforms. Pure Python, fully offline, no LLM and no API key | [Source](https://github.com/swaylq/humanize-chinese) |
 
 ---
 
