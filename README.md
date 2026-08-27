@@ -198,6 +198,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **context-engineering-kit** | Advanced context engineering with multi-agent patterns, reflexion loops, and domain-driven development | [Source](https://github.com/NeoLabHQ/context-engineering-kit) |
 | **compound-engineering-plugin** | Pragmatic engineering plugin with ideation, planning, execution, multi-agent review, and knowledge compounding | [Source](https://github.com/EveryInc/compound-engineering-plugin) |
 | **vscode-extension-builder** | Scaffolds, compiles, packages, and installs a working VS Code extension end-to-end from a single request — command extensions, color themes, and snippet packs | [Source](https://github.com/SuryaPrakashPandurangi/vscode-extension-builder) |
+| **prompt-engineer** | Turns a request into a production-ready prompt with test cases and success criteria, and routes to a hook, skill, or subagent when a prompt is the wrong artifact | [Source](https://github.com/AdrianAdem/prompt-engineer-skill) |
 
 ---
 
