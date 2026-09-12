@@ -19,14 +19,14 @@ If you use skills across more than one coding agent, [Skill Manager](https://abu
 
 ## 📈 Overview
 
-**244 skills** across **13 categories**:
+**245 skills** across **13 categories**:
 
 | Category | Skills |
 |----------|--------|
 | 💻 Development & Code Tools | 79 |
 | 📣 Marketing & SEO | 22 |
 | 📝 Writing & Research | 22 |
-| 🤝 Collaboration & Project Management | 20 |
+| 🤝 Collaboration & Project Management | 21 |
 | ⚙️ Utility & Automation | 28 |
 | 🔐 Security & Testing | 15 |
 | 📚 Learning & Knowledge | 14 |
@@ -326,6 +326,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **read-only-gh-pr-review** | Safe read-only review of backend pull requests using GitHub CLI with local inspection | [Source](https://github.com/jawwadfirdousi/agent-skills) |
 | **i-have-adhd** | Shapes agent output for ADHD readers: lead with the next action, number multi-step work, restate state across turns, and suppress tangents | [Source](https://github.com/ayghri/i-have-adhd/tree/main/skills/i-have-adhd) |
 
+| **yylo-skills** | Seven reusable agent skills for Claude Code, Codex, and Pi built around YYLO Ledger — operate task management, maintain wiki and workflow Records, capture provenance-bound evidence, plan implementation-sized tasks, execute one assigned task through validated delivery, and inspect the project before implementation | [Source](https://github.com/yylo-dev/yylo-skills) |
 ---
 
 ## 📣 Marketing & SEO
