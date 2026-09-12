@@ -19,7 +19,7 @@ If you use skills across more than one coding agent, [Skill Manager](https://abu
 
 ## 📈 Overview
 
-**245 skills** across **13 categories**:
+**246 skills** across **13 categories**:
 
 | Category | Skills |
 |----------|--------|
@@ -29,7 +29,7 @@ If you use skills across more than one coding agent, [Skill Manager](https://abu
 | 🤝 Collaboration & Project Management | 21 |
 | ⚙️ Utility & Automation | 28 |
 | 🔐 Security & Testing | 15 |
-| 📚 Learning & Knowledge | 14 |
+| 📚 Learning & Knowledge | 15 |
 | 🎨 Creative & Design | 13 |
 | 💼 Career & Job Search | 6 |
 | 🎥 Media & Content | 9 |
@@ -283,6 +283,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **json-canvas** | Work with Obsidian JSON Canvas for visual knowledge mapping and linking | [Source](https://github.com/kepano/obsidian-skills/tree/main/skills/json-canvas) |
 | **teach** | Learn a concept over multiple sessions using the current directory as a stateful workspace with glossary, missions, and resources | [Source](https://github.com/mattpocock/skills/tree/main/skills/productivity/teach) |
 
+| **teaching-skills** | University teaching-lifecycle suite for professors: course design, lessons, assessment, grading, and reflection (15 skills) | [Source](https://github.com/YujxZJCN/teaching-skills) |
 ---
 
 ## 🎥 Media & Content
