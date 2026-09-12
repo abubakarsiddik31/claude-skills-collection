@@ -12,27 +12,27 @@ This repository gathers and organizes all publicly available Claude Skills, incl
 If you use skills across more than one coding agent, [Skill Manager](https://abubakarsiddik31.github.io/skill-manager/) gives you one dashboard to discover, enable, disable, edit, and delete them across Claude Code, Codex, Cursor, and OpenCode. [Download it here](https://abubakarsiddik31.github.io/skill-manager/); view the [source on GitHub](https://github.com/abubakarsiddik31/skill-manager).
 
 <a href="https://abubakarsiddik31.github.io/skill-manager/">
-  <img src="https://raw.githubusercontent.com/abubakarsiddik31/skill-manager/main/docs/banner.svg" alt="Skill Manager — one dashboard to manage every AI coding agent skill you've installed" width="100%" />
+  <img src="https://raw.githubusercontent.com/abubakarsiddik31/skill-manager/main/docs/assets/social-card.png" alt="Skill Manager — every skill, every agent, one dashboard" width="100%" />
 </a>
 
 ---
 
 ## 📈 Overview
 
-**228 skills** across **13 categories**:
+**247 skills** across **13 categories**:
 
 | Category | Skills |
 |----------|--------|
-| 💻 Development & Code Tools | 74 |
-| 📣 Marketing & SEO | 21 |
-| 📝 Writing & Research | 20 |
-| 🤝 Collaboration & Project Management | 19 |
-| ⚙️ Utility & Automation | 28 |
+| 💻 Development & Code Tools | 79 |
+| 📣 Marketing & SEO | 22 |
+| 📝 Writing & Research | 22 |
+| 🤝 Collaboration & Project Management | 21 |
+| ⚙️ Utility & Automation | 29 |
 | 🔐 Security & Testing | 15 |
-| 📚 Learning & Knowledge | 14 |
-| 🎨 Creative & Design | 9 |
+| 📚 Learning & Knowledge | 15 |
+| 🎨 Creative & Design | 13 |
 | 💼 Career & Job Search | 6 |
-| 🎥 Media & Content | 6 |
+| 🎥 Media & Content | 9 |
 | 🔬 Scientific & Research Tools | 5 |
 | 📊 Data & Analysis | 6 |
 | 📄 Document Skills | 5 |
@@ -117,6 +117,10 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **frontend-slides** | Create animation-rich single-file HTML presentations with 12 visual styles and zero dependencies | [Source](https://github.com/zarazhangrui/frontend-slides) |
 | **web-asset-generator** | Generate favicons, app icons, PWA manifests, and Open Graph images with WCAG contrast validation | [Source](https://github.com/alonw0/web-asset-generator) |
 | **color-expert** | Color science and accessibility expertise covering APCA/WCAG, palette systems, and color-space decisions | [Source](https://github.com/meodai/skill.color-expert) |
+| **design-mobile-apps** | Design mobile app UI screens and implement Sleek designs in HTML, React Native, or SwiftUI | [Source](https://github.com/designed-by-ai/skills/tree/main/skills/design-mobile-apps) |
+| **frontend-design** | Official Anthropic guidance for distinctive, intentional visual design — aesthetic direction, typography, and avoiding templated defaults | [Source](https://github.com/anthropics/skills/tree/main/skills/frontend-design) |
+| **web-design-guidelines** | Official Vercel skill that reviews UI code against Web Interface Guidelines for accessibility, interaction, and UX best practices | [Source](https://github.com/vercel-labs/agent-skills/tree/main/skills/web-design-guidelines) |
+| **emil-design-eng** | Emil Kowalski's design-engineering philosophy: UI polish, component design, animation decisions, and the invisible details that make software feel great | [Source](https://github.com/emilkowalski/skills/tree/main/skills/emil-design-eng) |
 
 ---
 
@@ -198,6 +202,11 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **context-engineering-kit** | Advanced context engineering with multi-agent patterns, reflexion loops, and domain-driven development | [Source](https://github.com/NeoLabHQ/context-engineering-kit) |
 | **compound-engineering-plugin** | Pragmatic engineering plugin with ideation, planning, execution, multi-agent review, and knowledge compounding | [Source](https://github.com/EveryInc/compound-engineering-plugin) |
 | **vscode-extension-builder** | Scaffolds, compiles, packages, and installs a working VS Code extension end-to-end from a single request — command extensions, color themes, and snippet packs | [Source](https://github.com/SuryaPrakashPandurangi/vscode-extension-builder) |
+| **ponytail** | Forces the laziest solution that actually works — YAGNI, standard library before custom code, one line before fifty, with lite/full/ultra intensity levels | [Source](https://github.com/DietrichGebert/ponytail/tree/main/skills/ponytail) |
+| **agent-browser** | Official Vercel browser automation CLI for AI agents — navigate pages, fill forms, click, screenshot, extract data, and test web apps | [Source](https://github.com/vercel-labs/agent-browser/tree/main/skills/agent-browser) |
+| **prisma-client-api** | Official Prisma reference for Client API queries, filters, operators, transactions, and client configuration | [Source](https://github.com/prisma/skills/tree/main/prisma-client-api) |
+| **google-agents-cli-deploy** | Official Google skill for deploying ADK agents to Agent Runtime, Cloud Run, or GKE, with CI/CD, secrets, and Agent Gateway setup | [Source](https://github.com/google/agents-cli/tree/main/skills/google-agents-cli-deploy) |
+| **microsoft-foundry** | Official Microsoft skill for building, deploying, evaluating, and managing Foundry agents, models, and resources end to end | [Source](https://github.com/microsoft/azure-skills/tree/main/skills/microsoft-foundry) |
 
 ---
 
@@ -250,6 +259,8 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **writing-fragments** | Mine raw fragments through relentless grilling — pure explore mode with no structure imposed | [Source](https://github.com/mattpocock/skills/tree/main/skills/in-progress/writing-fragments) |
 | **writing-beats** | Assemble raw material into a journey of beats, grounding each term before a beat leans on it | [Source](https://github.com/mattpocock/skills/tree/main/skills/in-progress/writing-beats) |
 | **writing-shape** | Shape raw material into an article, paragraph by paragraph, from a pile of notes or fragments | [Source](https://github.com/mattpocock/skills/tree/main/skills/in-progress/writing-shape) |
+| **humanizer** | Rewrites AI-sounding text so it reads like a person wrote it, without changing what it says — based on Wikipedia's "Signs of AI writing" | [Source](https://github.com/blader/humanizer) |
+| **no-ai-slop** | Edits drafts into sharper, more human writing while preserving the writer's personal voice, removing 20+ patterns of AI slop | [Source](https://github.com/petergyang/no-ai-slop/tree/main/skills/no-ai-slop) |
 
 ---
 
@@ -272,6 +283,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **json-canvas** | Work with Obsidian JSON Canvas for visual knowledge mapping and linking | [Source](https://github.com/kepano/obsidian-skills/tree/main/skills/json-canvas) |
 | **teach** | Learn a concept over multiple sessions using the current directory as a stateful workspace with glossary, missions, and resources | [Source](https://github.com/mattpocock/skills/tree/main/skills/productivity/teach) |
 
+| **teaching-skills** | University teaching-lifecycle suite for professors: course design, lessons, assessment, grading, and reflection (15 skills) | [Source](https://github.com/YujxZJCN/teaching-skills) |
 ---
 
 ## 🎥 Media & Content
@@ -284,7 +296,10 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **Video Downloader** | Download YouTube videos for use in Claude | [Source](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/video-downloader) |
 | **imagen** | Generate images using Google Gemini's image generation API for UI mockups, icons, and visual assets | [Source](https://github.com/sanjay3290/ai-skills/tree/main/skills/imagen) |
 | **typefully** | Official Typefully skill for creating and scheduling social media content across X, LinkedIn, Threads, Bluesky, and Mastodon | [Source](https://github.com/typefully/agent-skills) |
+| **video-edit** | Smart router that matches video-editing intent to the right model in the RunComfy catalog — restyle, background swap, and packaging with identity and motion preservation | [Source](https://github.com/genmedia-labs/skills/tree/main/video-edit) |
+| **hyperframes** | HeyGen's agent-native HTML-to-video framework: CLI development loop with keyframes, capture, render, composition, and publishing skills | [Source](https://github.com/heygen-com/hyperframes) |
 
+| **ruxi-skill** | Turn any book into a playable visual novel where you play an overlooked side character, every branch cited back to the source text, output as a single playable HTML file | [Source](https://github.com/swaylq/ruxi-skill) |
 ---
 
 ## 🤝 Collaboration & Project Management
@@ -310,7 +325,9 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **test-fixing** | Detect failing tests and propose patches or fixes | [Source](https://github.com/mhattingpete/claude-skills-marketplace/tree/main/engineering-workflow-plugin/skills/test-fixing) |
 | **product-manager-skills** | Senior PM agent with 6 knowledge domains, 12 templates, 30+ frameworks covering discovery, strategy, delivery, SaaS metrics, PM career coaching, and AI product craft | [Source](https://github.com/Digidai/product-manager-skills) |
 | **read-only-gh-pr-review** | Safe read-only review of backend pull requests using GitHub CLI with local inspection | [Source](https://github.com/jawwadfirdousi/agent-skills) |
+| **i-have-adhd** | Shapes agent output for ADHD readers: lead with the next action, number multi-step work, restate state across turns, and suppress tangents | [Source](https://github.com/ayghri/i-have-adhd/tree/main/skills/i-have-adhd) |
 
+| **yylo-skills** | Seven reusable agent skills for Claude Code, Codex, and Pi built around YYLO Ledger — operate task management, maintain wiki and workflow Records, capture provenance-bound evidence, plan implementation-sized tasks, execute one assigned task through validated delivery, and inspect the project before implementation | [Source](https://github.com/yylo-dev/yylo-skills) |
 ---
 
 ## 📣 Marketing & SEO
@@ -338,6 +355,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **marketing-psychology** | Behavioral science application to marketing copy and UX | [Source](https://github.com/coreyhaines31/marketingskills/tree/main/skills/marketing-psychology) |
 | **seo-audit-full** | Deep technical and content SEO auditing workflow for comprehensive site/page analysis | [Source](https://github.com/JeffLi1993/seo-audit-skill/tree/main/seo-audit-full) |
 | **vibe-prospecting** | Live B2B company and contact data for natural-language lead-list building, prospect enrichment, executive discovery, and multi-step GTM workflows | [Source](https://github.com/explorium-ai/vibeprospecting-plugin/blob/main/skills/vibe-prospecting/SKILL.md) |
+| **reddit-automation** | Find Reddit threads where people are genuinely asking for what you offer, then draft honest, helpful replies with affiliation disclosure | [Source](https://github.com/flowkit-labs/skills/tree/main/reddit-automation) |
 
 ---
 
@@ -407,8 +425,9 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **wizard** | Generate an interactive bash wizard that walks a human through a manual procedure — opening URLs, capturing values, confirming each step | [Source](https://github.com/mattpocock/skills/tree/main/skills/in-progress/wizard) |
 | **setup-ts-deep-modules** | Wire dependency-cruiser into a TypeScript repo so each package is a deep module with a small public surface | [Source](https://github.com/mattpocock/skills/tree/main/skills/in-progress/setup-ts-deep-modules) |
 | **claude-handoff** | Hand the current conversation off to a fresh background agent that picks up the work immediately | [Source](https://github.com/mattpocock/skills/tree/main/skills/in-progress/claude-handoff) |
-| **sijiao-skill (私教.skill)** | Distils any skill you want to learn into a stateful tutor — it remembers where you are, sets and grades exercises at your level, and schedules spaced review, with the ceiling honestly capped at competent | [Source](https://github.com/swaylq/sijiao-skill) |
+| **find-skills** | Official Vercel skill that discovers and installs agent skills from the ecosystem when you ask "is there a skill for X" | [Source](https://github.com/vercel-labs/skills/tree/main/skills/find-skills) |
 
+| **sijiao-skill (私教.skill)** | Distils any skill you want to learn into a stateful tutor — it remembers where you are, sets and grades exercises at your level, and schedules spaced review, with the ceiling honestly capped at competent | [Source](https://github.com/swaylq/sijiao-skill) |
 ---
 
 ## Getting Started
