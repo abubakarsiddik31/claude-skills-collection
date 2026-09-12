@@ -428,6 +428,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **find-skills** | Official Vercel skill that discovers and installs agent skills from the ecosystem when you ask "is there a skill for X" | [Source](https://github.com/vercel-labs/skills/tree/main/skills/find-skills) |
 
 | **danshari-skill (断舍离.skill)** | Audits every skill you have installed and archives the ones your current model, harness, or MCP servers already cover — three-way triage, blind-test evidence before any removal, and one-command restore instead of `rm` | [Source](https://github.com/swaylq/danshari-skill) |
+| **sijiao-skill (私教.skill)** | Distils any skill you want to learn into a stateful tutor — it remembers where you are, sets and grades exercises at your level, and schedules spaced review, with the ceiling honestly capped at competent | [Source](https://github.com/swaylq/sijiao-skill) |
 ---
 
 ## Getting Started
