@@ -19,7 +19,7 @@ If you use skills across more than one coding agent, [Skill Manager](https://abu
 
 ## 📈 Overview
 
-**248 skills** across **13 categories**:
+**249 skills** across **13 categories**:
 
 | Category | Skills |
 |----------|--------|
@@ -32,7 +32,7 @@ If you use skills across more than one coding agent, [Skill Manager](https://abu
 | 📚 Learning & Knowledge | 15 |
 | 🎨 Creative & Design | 13 |
 | 💼 Career & Job Search | 6 |
-| 🎥 Media & Content | 9 |
+| 🎥 Media & Content | 10 |
 | 🔬 Scientific & Research Tools | 5 |
 | 📊 Data & Analysis | 6 |
 | 📄 Document Skills | 5 |
@@ -300,6 +300,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **hyperframes** | HeyGen's agent-native HTML-to-video framework: CLI development loop with keyframes, capture, render, composition, and publishing skills | [Source](https://github.com/heygen-com/hyperframes) |
 
 | **ruxi-skill** | Turn any book into a playable visual novel where you play an overlooked side character, every branch cited back to the source text, output as a single playable HTML file | [Source](https://github.com/swaylq/ruxi-skill) |
+| **socialclaw** | Social media scheduling and publishing for AI agents across X, LinkedIn, Instagram, Facebook Pages, TikTok, Discord, Telegram, YouTube, Reddit, WordPress, and Pinterest via one workspace API key | [Source](https://github.com/ndesv21/socialclaw) |
 ---
 
 ## 🤝 Collaboration & Project Management
