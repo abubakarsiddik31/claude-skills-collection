@@ -32,7 +32,7 @@ If you use skills across more than one coding agent, [Skill Manager](https://abu
 | 📚 Learning & Knowledge | 15 |
 | 🎨 Creative & Design | 13 |
 | 💼 Career & Job Search | 6 |
-| 🎥 Media & Content | 10 |
+| 🎥 Media & Content | 11 |
 | 🔬 Scientific & Research Tools | 5 |
 | 📊 Data & Analysis | 6 |
 | 📄 Document Skills | 5 |
@@ -300,6 +300,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **imagen** | Generate images using Google Gemini's image generation API for UI mockups, icons, and visual assets | [Source](https://github.com/sanjay3290/ai-skills/tree/main/skills/imagen) |
 | **typefully** | Official Typefully skill for creating and scheduling social media content across X, LinkedIn, Threads, Bluesky, and Mastodon | [Source](https://github.com/typefully/agent-skills) |
 | **video-edit** | Smart router that matches video-editing intent to the right model in the RunComfy catalog — restyle, background swap, and packaging with identity and motion preservation | [Source](https://github.com/genmedia-labs/skills/tree/main/video-edit) |
+| **i-hate-editing** | Local talking-head cuts via whisper.cpp + ffmpeg + craft rules (model never watches the pixels) | [Source](https://github.com/ranahaani/i-hate-editing) |
 | **hyperframes** | HeyGen's agent-native HTML-to-video framework: CLI development loop with keyframes, capture, render, composition, and publishing skills | [Source](https://github.com/heygen-com/hyperframes) |
 
 | **ruxi-skill** | Turn any book into a playable visual novel where you play an overlooked side character, every branch cited back to the source text, output as a single playable HTML file | [Source](https://github.com/swaylq/ruxi-skill) |
