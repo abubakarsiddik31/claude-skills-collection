@@ -19,11 +19,11 @@ If you use skills across more than one coding agent, [Skill Manager](https://abu
 
 ## 📈 Overview
 
-**252 skills** across **13 categories**:
+**253 skills** across **13 categories**:
 
 | Category | Skills |
 |----------|--------|
-| 💻 Development & Code Tools | 82 |
+| 💻 Development & Code Tools | 83 |
 | 📣 Marketing & SEO | 22 |
 | 📝 Writing & Research | 22 |
 | 🤝 Collaboration & Project Management | 21 |
@@ -211,6 +211,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 
 | **prompt-engineer** | Turns a request into a production-ready prompt with test cases and success criteria, and routes to a hook, skill, or subagent when a prompt is the wrong artifact | [Source](https://github.com/AdrianAdem/prompt-engineer-skill) |
 | **orca-replay** | Answers questions about a past agent run from its recording rather than from memory — what it sent, ran and changed — and replays or forks that run. Reads traces over MCP; needs the `orcareplay` npm package | [Source](https://github.com/Continuum-AI-Corp/OrcaReplay/tree/main/skills/orca-replay) |
+| **skillkeel-starter** | Eight repo-chore skills (commit-message, pr-description, changelog, readme-refresh, claude-md-init, dependency-audit, secret-audit, test-gap-finder), each shipped with an eval fixture, graders and the transcript of a real run, rerun on every Claude Code release; the same plugin carries the guard-bash and secret-scan hooks. MIT | [Source](https://github.com/skillkeel/skillkeel-starter/tree/main/skills) |
 ---
 
 ## 📊 Data & Analysis
