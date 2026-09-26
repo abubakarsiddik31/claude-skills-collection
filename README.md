@@ -362,6 +362,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **reddit-automation** | Find Reddit threads where people are genuinely asking for what you offer, then draft honest, helpful replies with affiliation disclosure | [Source](https://github.com/flowkit-labs/skills/tree/main/reddit-automation) |
 
 ---
+| **reddit-rules-first** | Post to Reddit the way communities accept it: read each subreddit's rules first, one fresh post per community, disclose affiliation, and check whether posts stayed up | [Source](https://github.com/amflimited/threadfox-lite/tree/main/skills/reddit-rules-first) |
 
 ## 💼 Career & Job Search
 
