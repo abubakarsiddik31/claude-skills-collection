@@ -19,11 +19,11 @@ If you use skills across more than one coding agent, [Skill Manager](https://abu
 
 ## 📈 Overview
 
-**252 skills** across **13 categories**:
+**253 skills** across **13 categories**:
 
 | Category | Skills |
 |----------|--------|
-| 💻 Development & Code Tools | 82 |
+| 💻 Development & Code Tools | 83 |
 | 📣 Marketing & SEO | 22 |
 | 📝 Writing & Research | 22 |
 | 🤝 Collaboration & Project Management | 21 |
@@ -208,9 +208,10 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **prisma-client-api** | Official Prisma reference for Client API queries, filters, operators, transactions, and client configuration | [Source](https://github.com/prisma/skills/tree/main/prisma-client-api) |
 | **google-agents-cli-deploy** | Official Google skill for deploying ADK agents to Agent Runtime, Cloud Run, or GKE, with CI/CD, secrets, and Agent Gateway setup | [Source](https://github.com/google/agents-cli/tree/main/skills/google-agents-cli-deploy) |
 | **microsoft-foundry** | Official Microsoft skill for building, deploying, evaluating, and managing Foundry agents, models, and resources end to end | [Source](https://github.com/microsoft/azure-skills/tree/main/skills/microsoft-foundry) |
-
 | **prompt-engineer** | Turns a request into a production-ready prompt with test cases and success criteria, and routes to a hook, skill, or subagent when a prompt is the wrong artifact | [Source](https://github.com/AdrianAdem/prompt-engineer-skill) |
 | **orca-replay** | Answers questions about a past agent run from its recording rather than from memory — what it sent, ran and changed — and replays or forks that run. Reads traces over MCP; needs the `orcareplay` npm package | [Source](https://github.com/Continuum-AI-Corp/OrcaReplay/tree/main/skills/orca-replay) |
+| **since-cutoff** | Finds which APIs of a Python project's pinned dependencies changed after the model's training cutoff, measures which of them the model actually gets wrong using a type checker, and writes short AGENTS.md/CLAUDE.md notes kept only if their example type-checks. Runs the `since-cutoff` PyPI CLI; `scan` needs no model calls or API key | [Source](https://github.com/MohammadHijjawi97/since-cutoff/tree/main/skills/since-cutoff) |
+
 ---
 
 ## 📊 Data & Analysis
