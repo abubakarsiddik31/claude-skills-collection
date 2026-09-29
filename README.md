@@ -19,14 +19,14 @@ If you use skills across more than one coding agent, [Skill Manager](https://abu
 
 ## 📈 Overview
 
-**252 skills** across **13 categories**:
+**253 skills** across **13 categories**:
 
 | Category | Skills |
 |----------|--------|
 | 💻 Development & Code Tools | 82 |
 | 📣 Marketing & SEO | 22 |
 | 📝 Writing & Research | 22 |
-| 🤝 Collaboration & Project Management | 21 |
+| 🤝 Collaboration & Project Management | 22 |
 | ⚙️ Utility & Automation | 30 |
 | 🔐 Security & Testing | 15 |
 | 📚 Learning & Knowledge | 15 |
@@ -310,6 +310,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 
 | Name | Description | Link |
 |------|-------------|------|
+| **busabase** | Manage structured records, knowledge, apps, and skills in Busabase through permission-aware ChangeRequests | [Source](https://github.com/busabase/skills/tree/main/skills/busabase) |
 | **agent-workflow-pack** | Package repeatable AI coding workflows into SKILL.md, templates, and verification checks | [Source](https://github.com/MemoAsh/agent-workflow-pack/tree/main/skills/pr-review-workflow) |
 | **grill-me** | Structured questioning workflow to pressure-test plans and designs before execution | [Source](https://github.com/mattpocock/skills/tree/main/skills/productivity/grill-me) |
 | **handoff** | Generate concise handoff documentation so another agent can continue work seamlessly | [Source](https://github.com/mattpocock/skills/tree/main/skills/productivity/handoff) |
