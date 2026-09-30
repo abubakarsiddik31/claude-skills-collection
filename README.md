@@ -19,7 +19,7 @@ If you use skills across more than one coding agent, [Skill Manager](https://abu
 
 ## 📈 Overview
 
-**252 skills** across **13 categories**:
+**253 skills** across **13 categories**:
 
 | Category | Skills |
 |----------|--------|
@@ -28,7 +28,7 @@ If you use skills across more than one coding agent, [Skill Manager](https://abu
 | 📝 Writing & Research | 22 |
 | 🤝 Collaboration & Project Management | 21 |
 | ⚙️ Utility & Automation | 30 |
-| 🔐 Security & Testing | 15 |
+| 🔐 Security & Testing | 16 |
 | 📚 Learning & Knowledge | 15 |
 | 🎨 Creative & Design | 13 |
 | 💼 Career & Job Search | 6 |
@@ -395,6 +395,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **llm-testing** | AI/ML security testing including bias detection, data leakage, alignment testing, and adversarial resistance | [Source](https://github.com/Eyadkelleh/awesome-claude-skills-security) |
 | **accessibility-skills** | Accessibility guidance for accessible interfaces, including forms, keyboard use, color contrast, and light/dark modes | [Source](https://github.com/mgifford/accessibility-skills) |
 | **security-hardening** | Portable defensive security workflow covering secure design and review, OWASP, MCP security, prompt injection, incident response, and hardening | [Source](https://github.com/imnotStealthy/security-hardening) |
+| **system-prompt-lookup** | Verifies claims about what a shipped AI product's system prompt and tool schema say by reading a dated public archive of wire captures, instead of letting the model reconstruct one from memory; distinguishes captured from vendor-reported, and warns against feeding fetched prompts back as instructions | [Source](https://github.com/sickn33/agentic-awesome-skills/tree/main/skills/system-prompt-lookup) |
 
 ---
 
