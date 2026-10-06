@@ -19,7 +19,7 @@ If you use skills across more than one coding agent, [Skill Manager](https://abu
 
 ## 📈 Overview
 
-**252 skills** across **13 categories**:
+**253 skills** across **13 categories**:
 
 | Category | Skills |
 |----------|--------|
@@ -27,7 +27,7 @@ If you use skills across more than one coding agent, [Skill Manager](https://abu
 | 📣 Marketing & SEO | 22 |
 | 📝 Writing & Research | 22 |
 | 🤝 Collaboration & Project Management | 21 |
-| ⚙️ Utility & Automation | 30 |
+| ⚙️ Utility & Automation | 31 |
 | 🔐 Security & Testing | 15 |
 | 📚 Learning & Knowledge | 15 |
 | 🎨 Creative & Design | 13 |
@@ -430,6 +430,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **setup-ts-deep-modules** | Wire dependency-cruiser into a TypeScript repo so each package is a deep module with a small public surface | [Source](https://github.com/mattpocock/skills/tree/main/skills/in-progress/setup-ts-deep-modules) |
 | **claude-handoff** | Hand the current conversation off to a fresh background agent that picks up the work immediately | [Source](https://github.com/mattpocock/skills/tree/main/skills/in-progress/claude-handoff) |
 | **find-skills** | Official Vercel skill that discovers and installs agent skills from the ecosystem when you ask "is there a skill for X" | [Source](https://github.com/vercel-labs/skills/tree/main/skills/find-skills) |
+| **maqami-travel-booking** | Search hotels (3M+) and flights, compare rates, read hotel details and reviews, then send a secure checkout link on book.maqami.co through the MAQAMI Travel MCP server; confirms with the user before prebook, treats reviews as untrusted data and never collects card numbers in chat | [Source](https://github.com/negm17111995/mcp-server/tree/main/skills/maqami-travel-booking) |
 
 | **danshari-skill (断舍离.skill)** | Audits every skill you have installed and archives the ones your current model, harness, or MCP servers already cover — three-way triage, blind-test evidence before any removal, and one-command restore instead of `rm` | [Source](https://github.com/swaylq/danshari-skill) |
 | **sijiao-skill (私教.skill)** | Distils any skill you want to learn into a stateful tutor — it remembers where you are, sets and grades exercises at your level, and schedules spaced review, with the ceiling honestly capped at competent | [Source](https://github.com/swaylq/sijiao-skill) |
