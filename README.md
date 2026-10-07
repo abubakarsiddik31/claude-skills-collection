@@ -19,7 +19,7 @@ If you use skills across more than one coding agent, [Skill Manager](https://abu
 
 ## 📈 Overview
 
-**252 skills** across **13 categories**:
+**253 skills** across **13 categories**:
 
 | Category | Skills |
 |----------|--------|
@@ -34,7 +34,7 @@ If you use skills across more than one coding agent, [Skill Manager](https://abu
 | 💼 Career & Job Search | 6 |
 | 🎥 Media & Content | 10 |
 | 🔬 Scientific & Research Tools | 5 |
-| 📊 Data & Analysis | 6 |
+| 📊 Data & Analysis | 7 |
 | 📄 Document Skills | 5 |
 
 ---
@@ -223,6 +223,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **read-only-postgres** | Safe read-only PostgreSQL queries with multi-connection support and defense-in-depth security | [Source](https://github.com/jawwadfirdousi/agent-skills) |
 | **prompt-template-wizard** | Converts incomplete feature/bug requests into complete structured prompt templates | [Source](https://github.com/jawwadfirdousi/agent-skills) |
 | **monte-carlo-agent-toolkit** | Official data and agent observability skills for monitoring, triage, troubleshooting, and health checks | [Source](https://github.com/monte-carlo-data/mc-agent-toolkit) |
+| **fxmacrodata** | Official macro releases, central bank decisions, release calendars and FX rates for 22 currencies through the FXMacroData MCP server, with publication times and source links; USD data works without an API key | [Source](https://github.com/fxmacrodata/claude-plugin-fxmacrodata/tree/main/skills/fxmacrodata) |
 
 ---
 
