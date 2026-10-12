@@ -360,6 +360,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **seo-audit-full** | Deep technical and content SEO auditing workflow for comprehensive site/page analysis | [Source](https://github.com/JeffLi1993/seo-audit-skill/tree/main/seo-audit-full) |
 | **vibe-prospecting** | Live B2B company and contact data for natural-language lead-list building, prospect enrichment, executive discovery, and multi-step GTM workflows | [Source](https://github.com/explorium-ai/vibeprospecting-plugin/blob/main/skills/vibe-prospecting/SKILL.md) |
 | **reddit-automation** | Find Reddit threads where people are genuinely asking for what you offer, then draft honest, helpful replies with affiliation disclosure | [Source](https://github.com/flowkit-labs/skills/tree/main/reddit-automation) |
+| **geo-agent-skills** | Two skills for Generative Engine Optimization: Markdown + llms.txt generation so AI agents can read and cite your site, and a 9-point AI-agent readiness audit | [Source](https://github.com/wu736139669/geo-agent-skills) |
 
 ---
 
