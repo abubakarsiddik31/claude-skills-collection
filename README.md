@@ -211,6 +211,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 
 | **prompt-engineer** | Turns a request into a production-ready prompt with test cases and success criteria, and routes to a hook, skill, or subagent when a prompt is the wrong artifact | [Source](https://github.com/AdrianAdem/prompt-engineer-skill) |
 | **orca-replay** | Answers questions about a past agent run from its recording rather than from memory — what it sent, ran and changed — and replays or forks that run. Reads traces over MCP; needs the `orcareplay` npm package | [Source](https://github.com/Continuum-AI-Corp/OrcaReplay/tree/main/skills/orca-replay) |
+| **cockney** | Cheeky Cockney coding mode: terse replies, the smallest correct change, plain-English warnings for anything risky, with lite/full/guvnor levels | [Source](https://github.com/Kadajett/cockney/tree/master/skills/cockney) |
 ---
 
 ## 📊 Data & Analysis
