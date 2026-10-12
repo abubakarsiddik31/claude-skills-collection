@@ -100,6 +100,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **pdf** | Extract content from PDFs, split/merge documents, or create new ones | [Source](https://github.com/anthropics/skills/tree/main/skills/pdf) |
 | **pptx** | Generate and edit PowerPoint presentations | [Source](https://github.com/anthropics/skills/tree/main/skills/pptx) |
 | **xlsx** | Manipulate Excel files, formulas, tables, and charts | [Source](https://github.com/anthropics/skills/tree/main/skills/xlsx) |
+| **toolpantry** | Route file tasks (compress, convert, PDF merge/split/sign, video to MP3) to 184 free browser tools that run locally — no uploads | [Source](https://github.com/wu736139669/toolpantry-skill) |
 | **revealjs-skill** | Generate polished, professional presentations using the Reveal.js HTML presentation framework | [Source](https://github.com/ryanbbrown/revealjs-skill/tree/main) |
 
 ---
