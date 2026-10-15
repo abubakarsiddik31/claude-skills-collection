@@ -223,6 +223,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **read-only-postgres** | Safe read-only PostgreSQL queries with multi-connection support and defense-in-depth security | [Source](https://github.com/jawwadfirdousi/agent-skills) |
 | **prompt-template-wizard** | Converts incomplete feature/bug requests into complete structured prompt templates | [Source](https://github.com/jawwadfirdousi/agent-skills) |
 | **monte-carlo-agent-toolkit** | Official data and agent observability skills for monitoring, triage, troubleshooting, and health checks | [Source](https://github.com/monte-carlo-data/mc-agent-toolkit) |
+| **chord-charts** | Draw candlestick price charts (SVG) with volume for tokens on 7 EVM chains and Solana from Chord's DEX trade data, with no API key | [Source](https://github.com/tuantqse90/moltnode-mcp/tree/main/skills/chord-charts) |
 
 ---
 
