@@ -360,6 +360,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **seo-audit-full** | Deep technical and content SEO auditing workflow for comprehensive site/page analysis | [Source](https://github.com/JeffLi1993/seo-audit-skill/tree/main/seo-audit-full) |
 | **vibe-prospecting** | Live B2B company and contact data for natural-language lead-list building, prospect enrichment, executive discovery, and multi-step GTM workflows | [Source](https://github.com/explorium-ai/vibeprospecting-plugin/blob/main/skills/vibe-prospecting/SKILL.md) |
 | **reddit-automation** | Find Reddit threads where people are genuinely asking for what you offer, then draft honest, helpful replies with affiliation disclosure | [Source](https://github.com/flowkit-labs/skills/tree/main/reddit-automation) |
+| **adlicio-mcp** | Customer research from public comments and reviews (Reddit, Amazon, YouTube, TikTok, Trustpilot and more) through the Adlicio MCP server, sorted into pain points, objections and ad angles with linked quotes. Needs an Adlicio account | [Source](https://github.com/daniel-ddtech/commentscraper-cli/tree/main/skills/adlicio-mcp) |
 
 ---
 
