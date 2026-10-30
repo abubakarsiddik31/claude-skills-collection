@@ -19,7 +19,7 @@ If you use skills across more than one coding agent, [Skill Manager](https://abu
 
 ## 📈 Overview
 
-**252 skills** across **13 categories**:
+**253 skills** across **13 categories**:
 
 | Category | Skills |
 |----------|--------|
@@ -32,7 +32,7 @@ If you use skills across more than one coding agent, [Skill Manager](https://abu
 | 📚 Learning & Knowledge | 15 |
 | 🎨 Creative & Design | 13 |
 | 💼 Career & Job Search | 6 |
-| 🎥 Media & Content | 10 |
+| 🎥 Media & Content | 11 |
 | 🔬 Scientific & Research Tools | 5 |
 | 📊 Data & Analysis | 6 |
 | 📄 Document Skills | 5 |
@@ -301,6 +301,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **typefully** | Official Typefully skill for creating and scheduling social media content across X, LinkedIn, Threads, Bluesky, and Mastodon | [Source](https://github.com/typefully/agent-skills) |
 | **video-edit** | Smart router that matches video-editing intent to the right model in the RunComfy catalog — restyle, background swap, and packaging with identity and motion preservation | [Source](https://github.com/genmedia-labs/skills/tree/main/video-edit) |
 | **hyperframes** | HeyGen's agent-native HTML-to-video framework: CLI development loop with keyframes, capture, render, composition, and publishing skills | [Source](https://github.com/heygen-com/hyperframes) |
+| **curlshot** | Take screenshots, full-page captures, PDFs, and scrolling videos of web pages, or render your own HTML/Markdown, through the CurlShot screenshot API (needs an API key; free plan available) | [Source](https://github.com/SergiuPogor/curlshot-mcp/tree/main/skills/curlshot) |
 
 | **ruxi-skill** | Turn any book into a playable visual novel where you play an overlooked side character, every branch cited back to the source text, output as a single playable HTML file | [Source](https://github.com/swaylq/ruxi-skill) |
 | **socialclaw** | Social media scheduling and publishing for AI agents across X, LinkedIn, Instagram, Facebook Pages, TikTok, Discord, Telegram, YouTube, Reddit, WordPress, and Pinterest via one workspace API key | [Source](https://github.com/ndesv21/socialclaw) |
