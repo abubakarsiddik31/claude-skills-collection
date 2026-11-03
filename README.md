@@ -223,7 +223,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **read-only-postgres** | Safe read-only PostgreSQL queries with multi-connection support and defense-in-depth security | [Source](https://github.com/jawwadfirdousi/agent-skills) |
 | **prompt-template-wizard** | Converts incomplete feature/bug requests into complete structured prompt templates | [Source](https://github.com/jawwadfirdousi/agent-skills) |
 | **monte-carlo-agent-toolkit** | Official data and agent observability skills for monitoring, triage, troubleshooting, and health checks | [Source](https://github.com/monte-carlo-data/mc-agent-toolkit) |
-| **datacircle** | Download every GTM API plan on Datacircle as one file, with a skill that tells your AI how to query it | [Source](https://github.com/waynehamadi/datacircle/tree/main/skills/datacircle) |
+| **datacircle** | Find the best GTM APIs. Download every plan on Datacircle as one file. Give your AI our skill file, datacircle.dev/SKILL.md, to query the file. | [Source](https://github.com/waynehamadi/datacircle/tree/main/skills/datacircle) |
 
 ---
 
