@@ -484,6 +484,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **legal** | Official Anthropic plugin for contract review, NDA triage, compliance checks, legal risk assessment, and meeting briefings | [Source](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal) |
 | **enterprise-search** | Official Anthropic plugin for searching across company tools and synthesizing knowledge into digests | [Source](https://github.com/anthropics/knowledge-work-plugins/tree/main/enterprise-search) |
 | **small-business** | Official Anthropic plugin for small-business operations: invoicing, cash flow, payroll prep, proposals, lead follow-up, and tax organization | [Source](https://github.com/anthropics/knowledge-work-plugins/tree/main/small-business) |
+| **brewpage-publish** | Publish generated HTML, Markdown, files or a static site to BrewPage and get a public HTTPS link back; no signup or API key; publications are temporary (15 days by default) | [Source](https://github.com/kochetkov-ma/brewpage-publish-plugins/tree/main/agent-plugin/skills/brewpage-publish) |
 ---
 
 ## Getting Started
