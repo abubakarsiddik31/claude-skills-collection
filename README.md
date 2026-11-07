@@ -19,22 +19,22 @@ If you use skills across more than one coding agent, [Skill Manager](https://abu
 
 ## 📈 Overview
 
-**252 skills** across **13 categories**:
+**303 skills** across **13 categories**:
 
 | Category | Skills |
 |----------|--------|
-| 💻 Development & Code Tools | 82 |
-| 📣 Marketing & SEO | 22 |
-| 📝 Writing & Research | 22 |
-| 🤝 Collaboration & Project Management | 21 |
-| ⚙️ Utility & Automation | 30 |
-| 🔐 Security & Testing | 15 |
-| 📚 Learning & Knowledge | 15 |
-| 🎨 Creative & Design | 13 |
-| 💼 Career & Job Search | 6 |
+| 💻 Development & Code Tools | 114 |
+| 📣 Marketing & SEO | 24 |
+| 📝 Writing & Research | 23 |
+| 🤝 Collaboration & Project Management | 25 |
+| ⚙️ Utility & Automation | 34 |
+| 🔐 Security & Testing | 17 |
+| 📚 Learning & Knowledge | 16 |
+| 🎨 Creative & Design | 14 |
+| 💼 Career & Job Search | 7 |
 | 🎥 Media & Content | 10 |
-| 🔬 Scientific & Research Tools | 5 |
-| 📊 Data & Analysis | 6 |
+| 🔬 Scientific & Research Tools | 6 |
+| 📊 Data & Analysis | 8 |
 | 📄 Document Skills | 5 |
 
 ---
@@ -121,6 +121,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **frontend-design** | Official Anthropic guidance for distinctive, intentional visual design — aesthetic direction, typography, and avoiding templated defaults | [Source](https://github.com/anthropics/skills/tree/main/skills/frontend-design) |
 | **web-design-guidelines** | Official Vercel skill that reviews UI code against Web Interface Guidelines for accessibility, interaction, and UX best practices | [Source](https://github.com/vercel-labs/agent-skills/tree/main/skills/web-design-guidelines) |
 | **emil-design-eng** | Emil Kowalski's design-engineering philosophy: UI polish, component design, animation decisions, and the invisible details that make software feel great | [Source](https://github.com/emilkowalski/skills/tree/main/skills/emil-design-eng) |
+| **design** | Official Anthropic plugin for design critique, design handoff, design systems, accessibility review, user research, and UX copy | [Source](https://github.com/anthropics/knowledge-work-plugins/tree/main/design) |
 
 ---
 
@@ -208,9 +209,41 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **prisma-client-api** | Official Prisma reference for Client API queries, filters, operators, transactions, and client configuration | [Source](https://github.com/prisma/skills/tree/main/prisma-client-api) |
 | **google-agents-cli-deploy** | Official Google skill for deploying ADK agents to Agent Runtime, Cloud Run, or GKE, with CI/CD, secrets, and Agent Gateway setup | [Source](https://github.com/google/agents-cli/tree/main/skills/google-agents-cli-deploy) |
 | **microsoft-foundry** | Official Microsoft skill for building, deploying, evaluating, and managing Foundry agents, models, and resources end to end | [Source](https://github.com/microsoft/azure-skills/tree/main/skills/microsoft-foundry) |
-
+| **implement-spec** | Implement the result of to-spec and to-tickets in code | [Source](https://github.com/mattpocock/skills/tree/main/skills/engineering/implement-spec) |
+| **pr** | Write a clear pull request body that helps reviewers understand the change | [Source](https://github.com/mattpocock/skills/tree/main/skills/engineering/pr) |
+| **retro** | Conduct a retrospective on a coding session to capture what worked and what to change | [Source](https://github.com/mattpocock/skills/tree/main/skills/engineering/retro) |
+| **wizard** | Generate an interactive bash wizard that walks a human through steps only they can perform, such as provisioning infrastructure or setting up credentials | [Source](https://github.com/mattpocock/skills/tree/main/skills/engineering/wizard) |
+| **spec-driven-development** | Write a spec or PRD with objectives and scope before coding when requirements are unclear | [Source](https://github.com/addyosmani/agent-skills/tree/main/skills/spec-driven-development) |
+| **api-and-interface-design** | Design stable REST/GraphQL APIs, type contracts, and module boundaries | [Source](https://github.com/addyosmani/agent-skills/tree/main/skills/api-and-interface-design) |
+| **frontend-ui-engineering** | Build production-quality, accessible, responsive UIs with sound state management and WCAG compliance | [Source](https://github.com/addyosmani/agent-skills/tree/main/skills/frontend-ui-engineering) |
+| **browser-testing-with-devtools** | Test and debug in real browsers via Chrome DevTools MCP: DOM, console errors, network, and performance | [Source](https://github.com/addyosmani/agent-skills/tree/main/skills/browser-testing-with-devtools) |
+| **debugging-and-error-recovery** | Systematic root-cause debugging for failing tests, broken builds, and unexpected behavior | [Source](https://github.com/addyosmani/agent-skills/tree/main/skills/debugging-and-error-recovery) |
+| **code-simplification** | Refactor for clarity without changing behavior by removing accumulated unnecessary complexity | [Source](https://github.com/addyosmani/agent-skills/tree/main/skills/code-simplification) |
+| **ci-cd-and-automation** | Set up CI/CD pipelines with automated quality gates, test runners, and deployment strategies | [Source](https://github.com/addyosmani/agent-skills/tree/main/skills/ci-cd-and-automation) |
+| **git-workflow-and-versioning** | Git practices for branching, atomic commits, cleaning up messy working trees, and pull requests | [Source](https://github.com/addyosmani/agent-skills/tree/main/skills/git-workflow-and-versioning) |
+| **security-and-hardening** | Harden code against vulnerabilities across input handling, auth, data storage, and the OWASP Top Ten | [Source](https://github.com/addyosmani/agent-skills/tree/main/skills/security-and-hardening) |
+| **observability-and-instrumentation** | Add logging, metrics, tracing, and alerting so production behavior is visible and diagnosable | [Source](https://github.com/addyosmani/agent-skills/tree/main/skills/observability-and-instrumentation) |
+| **deprecation-and-migration** | Plan safe removal of old systems and APIs and zero-downtime migrations such as production schema changes | [Source](https://github.com/addyosmani/agent-skills/tree/main/skills/deprecation-and-migration) |
+| **documentation-and-adrs** | Record architecture decisions (ADRs) and documentation for public APIs and shipped features | [Source](https://github.com/addyosmani/agent-skills/tree/main/skills/documentation-and-adrs) |
+| **shipping-and-launch** | Pre-launch checklists, monitoring setup, and staged rollout planning for production deploys | [Source](https://github.com/addyosmani/agent-skills/tree/main/skills/shipping-and-launch) |
+| **constraint-driven-development** | Establish the quality bar as a written CONSTRAINTS.md contract and stop agents quietly lowering it | [Source](https://github.com/addyosmani/agent-skills/tree/main/skills/constraint-driven-development) |
+| **doubt-driven-development** | Subject non-trivial decisions to fresh-context adversarial review before they stand | [Source](https://github.com/addyosmani/agent-skills/tree/main/skills/doubt-driven-development) |
+| **idea-refine** | Refine vague ideas into sharp, actionable concepts through divergent and convergent thinking | [Source](https://github.com/addyosmani/agent-skills/tree/main/skills/idea-refine) |
+| **using-agent-skills** | Meta-skill governing how agent skills are discovered and invoked at the start of a session | [Source](https://github.com/addyosmani/agent-skills/tree/main/skills/using-agent-skills) |
 | **prompt-engineer** | Turns a request into a production-ready prompt with test cases and success criteria, and routes to a hook, skill, or subagent when a prompt is the wrong artifact | [Source](https://github.com/AdrianAdem/prompt-engineer-skill) |
 | **orca-replay** | Answers questions about a past agent run from its recording rather than from memory — what it sent, ran and changed — and replays or forks that run. Reads traces over MCP; needs the `orcareplay` npm package | [Source](https://github.com/Continuum-AI-Corp/OrcaReplay/tree/main/skills/orca-replay) |
+| **ui-ux-pro-max** | Design intelligence database of styles, palettes, font pairings, and stack guidance for building professional UI/UX across frameworks | [Source](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) |
+| **engineering** | Official Anthropic plugin for architecture, system design, debugging, code review, testing strategy, deploy checklists, and incident response | [Source](https://github.com/anthropics/knowledge-work-plugins/tree/main/engineering) |
+| **find-bugs** | Sentry team skill that finds bugs, security vulnerabilities, and quality issues in local branch changes | [Source](https://github.com/getsentry/skills/tree/main/skills/find-bugs) |
+| **iterate-pr** | Sentry team skill that iterates on a PR until actionable CI passes and high/medium review feedback is addressed | [Source](https://github.com/getsentry/skills/tree/main/skills/iterate-pr) |
+| **skill-writer** | Sentry team skill for creating, synthesizing, and improving agent skills following the Agent Skills specification | [Source](https://github.com/getsentry/skills/tree/main/skills/skill-writer) |
+| **huggingface-skills** | Official Hugging Face skills for the CLI, datasets, model training (TRL, LoRA), Gradio apps, Spaces, Transformers.js, and papers | [Source](https://github.com/huggingface/skills) |
+| **qdrant-skills** | Official Qdrant skills for vector search scaling, performance tuning, search quality, monitoring, deployment, and version upgrades | [Source](https://github.com/qdrant/skills) |
+| **elastic-agent-skills** | Official Elastic skills for Elasticsearch, Kibana, observability, security, and Elastic Cloud | [Source](https://github.com/elastic/agent-skills) |
+| **mongodb-agent-skills** | Official MongoDB skills for building faster with MongoDB across coding agents | [Source](https://github.com/mongodb/agent-skills) |
+| **redis-agent-skills** | Official Redis collection of agent skills for building with Redis | [Source](https://github.com/redis/agent-skills) |
+| **datadog-agent-skills** | Official Datadog skills for APM, logs, monitors, RUM, agent installs, cloud integrations, and security | [Source](https://github.com/datadog-labs/agent-skills) |
+
 ---
 
 ## 📊 Data & Analysis
@@ -223,6 +256,8 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **read-only-postgres** | Safe read-only PostgreSQL queries with multi-connection support and defense-in-depth security | [Source](https://github.com/jawwadfirdousi/agent-skills) |
 | **prompt-template-wizard** | Converts incomplete feature/bug requests into complete structured prompt templates | [Source](https://github.com/jawwadfirdousi/agent-skills) |
 | **monte-carlo-agent-toolkit** | Official data and agent observability skills for monitoring, triage, troubleshooting, and health checks | [Source](https://github.com/monte-carlo-data/mc-agent-toolkit) |
+| **data** | Official Anthropic plugin for exploring data, writing SQL, statistical analysis, validation, and building dashboards and visualizations | [Source](https://github.com/anthropics/knowledge-work-plugins/tree/main/data) |
+| **finance** | Official Anthropic plugin for journal entries, reconciliation, variance analysis, financial statements, close management, and SOX testing | [Source](https://github.com/anthropics/knowledge-work-plugins/tree/main/finance) |
 
 ---
 
@@ -235,6 +270,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **extract-from-pdfs** | Extract structured data from scientific PDFs using Claude's vision with external validation against GBIF/WFO databases | [Source](https://github.com/brunoasm/my_claude_skills) |
 | **phylo-from-buscos** | Phylogenomic workflows from genome assemblies using BUSCO single-copy orthologs | [Source](https://github.com/brunoasm/my_claude_skills) |
 | **claude-mountaineering-skills** | Mountain route research aggregating 10+ sources including weather, avalanche forecasts, and hazard analysis | [Source](https://github.com/dreamiurg/claude-mountaineering-skills) |
+| **bio-research** | Official Anthropic plugin for life-science research: single-cell RNA QC, scvi-tools, Nextflow pipelines, and instrument data conversion | [Source](https://github.com/anthropics/knowledge-work-plugins/tree/main/bio-research) |
 
 ---
 
@@ -264,6 +300,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **writing-shape** | Shape raw material into an article, paragraph by paragraph, from a pile of notes or fragments | [Source](https://github.com/mattpocock/skills/tree/main/skills/in-progress/writing-shape) |
 | **humanizer** | Rewrites AI-sounding text so it reads like a person wrote it, without changing what it says — based on Wikipedia's "Signs of AI writing" | [Source](https://github.com/blader/humanizer) |
 | **no-ai-slop** | Edits drafts into sharper, more human writing while preserving the writer's personal voice, removing 20+ patterns of AI slop | [Source](https://github.com/petergyang/no-ai-slop/tree/main/skills/no-ai-slop) |
+| **doc-coauthoring** | Official Anthropic workflow for co-authoring docs, proposals, and specs by transferring context, refining, and testing with fresh readers | [Source](https://github.com/anthropics/skills/tree/main/skills/doc-coauthoring) |
 
 ---
 
@@ -287,6 +324,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **teach** | Learn a concept over multiple sessions using the current directory as a stateful workspace with glossary, missions, and resources | [Source](https://github.com/mattpocock/skills/tree/main/skills/productivity/teach) |
 
 | **teaching-skills** | University teaching-lifecycle suite for professors: course design, lessons, assessment, grading, and reflection (15 skills) | [Source](https://github.com/YujxZJCN/teaching-skills) |
+| **academy-guide** | Official Anthropic skill that recommends matching Claude Academy courses and tutorials when users ask how to use Claude | [Source](https://github.com/anthropics/skills/tree/main/skills/academy-guide) |
 ---
 
 ## 🎥 Media & Content
@@ -332,6 +370,10 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **i-have-adhd** | Shapes agent output for ADHD readers: lead with the next action, number multi-step work, restate state across turns, and suppress tangents | [Source](https://github.com/ayghri/i-have-adhd/tree/main/skills/i-have-adhd) |
 
 | **yylo-skills** | Seven reusable agent skills for Claude Code, Codex, and Pi built around YYLO Ledger — operate task management, maintain wiki and workflow Records, capture provenance-bound evidence, plan implementation-sized tasks, execute one assigned task through validated delivery, and inspect the project before implementation | [Source](https://github.com/yylo-dev/yylo-skills) |
+| **product-management** | Official Anthropic plugin for writing specs, roadmap updates, sprint planning, stakeholder updates, and synthesizing user research | [Source](https://github.com/anthropics/knowledge-work-plugins/tree/main/product-management) |
+| **operations** | Official Anthropic plugin for runbooks, process documentation, change requests, risk assessment, capacity planning, and status reports | [Source](https://github.com/anthropics/knowledge-work-plugins/tree/main/operations) |
+| **customer-support** | Official Anthropic plugin for ticket triage, draft responses, escalations, customer research, and knowledge-base articles | [Source](https://github.com/anthropics/knowledge-work-plugins/tree/main/customer-support) |
+| **productivity** | Official Anthropic plugin for task management and persistent memory that carries context across sessions | [Source](https://github.com/anthropics/knowledge-work-plugins/tree/main/productivity) |
 ---
 
 ## 📣 Marketing & SEO
@@ -360,6 +402,8 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **seo-audit-full** | Deep technical and content SEO auditing workflow for comprehensive site/page analysis | [Source](https://github.com/JeffLi1993/seo-audit-skill/tree/main/seo-audit-full) |
 | **vibe-prospecting** | Live B2B company and contact data for natural-language lead-list building, prospect enrichment, executive discovery, and multi-step GTM workflows | [Source](https://github.com/explorium-ai/vibeprospecting-plugin/blob/main/skills/vibe-prospecting/SKILL.md) |
 | **reddit-automation** | Find Reddit threads where people are genuinely asking for what you offer, then draft honest, helpful replies with affiliation disclosure | [Source](https://github.com/flowkit-labs/skills/tree/main/reddit-automation) |
+| **sales** | Official Anthropic plugin for call prep, account research, pipeline review, forecasting, outreach drafts, and objection handling | [Source](https://github.com/anthropics/knowledge-work-plugins/tree/main/sales) |
+| **marketing** | Official Anthropic plugin for campaign plans, content creation, email sequences, SEO audits, brand review, and performance reports | [Source](https://github.com/anthropics/knowledge-work-plugins/tree/main/marketing) |
 
 ---
 
@@ -373,6 +417,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **claude-resume-kit** | Extract experience once, generate tailored LaTeX resumes per JD with anti-fabrication controls and multi-perspective critique | [Source](https://github.com/ARPeeketi/claude-resume-kit) |
 | **Resume-Builder** | AI-powered resume and cover letter generator with dual ATS + HR scoring for any profession | [Source](https://github.com/jananthan30/Resume-Builder) |
 | **ResumeSkills** | Resume optimization, ATS scoring, interview prep, and strategic job search skills collection | [Source](https://github.com/Paramchoudhary/ResumeSkills) |
+| **human-resources** | Official Anthropic plugin for offer drafting, interview prep, onboarding, performance reviews, compensation analysis, and recruiting pipelines | [Source](https://github.com/anthropics/knowledge-work-plugins/tree/main/human-resources) |
 
 ---
 
@@ -395,6 +440,8 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **llm-testing** | AI/ML security testing including bias detection, data leakage, alignment testing, and adversarial resistance | [Source](https://github.com/Eyadkelleh/awesome-claude-skills-security) |
 | **accessibility-skills** | Accessibility guidance for accessible interfaces, including forms, keyboard use, color contrast, and light/dark modes | [Source](https://github.com/mgifford/accessibility-skills) |
 | **security-hardening** | Portable defensive security workflow covering secure design and review, OWASP, MCP security, prompt injection, incident response, and hardening | [Source](https://github.com/imnotStealthy/security-hardening) |
+| **gha-security-review** | Sentry team skill that audits GitHub Actions workflows for exploitable vulnerabilities | [Source](https://github.com/getsentry/skills/tree/main/skills/gha-security-review) |
+| **skill-scanner** | Sentry team skill that scans agent skills for security issues before you install them | [Source](https://github.com/getsentry/skills/tree/main/skills/skill-scanner) |
 
 ---
 
@@ -433,6 +480,10 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 
 | **danshari-skill (断舍离.skill)** | Audits every skill you have installed and archives the ones your current model, harness, or MCP servers already cover — three-way triage, blind-test evidence before any removal, and one-command restore instead of `rm` | [Source](https://github.com/swaylq/danshari-skill) |
 | **sijiao-skill (私教.skill)** | Distils any skill you want to learn into a stateful tutor — it remembers where you are, sets and grades exercises at your level, and schedules spaced review, with the ceiling honestly capped at competent | [Source](https://github.com/swaylq/sijiao-skill) |
+| **discernment-nudge** | Official Anthropic skill that appends 2-3 follow-up questions after substantive answers to help users check facts, assumptions, and missing context | [Source](https://github.com/anthropics/skills/tree/main/skills/discernment-nudge) |
+| **legal** | Official Anthropic plugin for contract review, NDA triage, compliance checks, legal risk assessment, and meeting briefings | [Source](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal) |
+| **enterprise-search** | Official Anthropic plugin for searching across company tools and synthesizing knowledge into digests | [Source](https://github.com/anthropics/knowledge-work-plugins/tree/main/enterprise-search) |
+| **small-business** | Official Anthropic plugin for small-business operations: invoicing, cash flow, payroll prep, proposals, lead follow-up, and tax organization | [Source](https://github.com/anthropics/knowledge-work-plugins/tree/main/small-business) |
 ---
 
 ## Getting Started
