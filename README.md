@@ -19,7 +19,7 @@ If you use skills across more than one coding agent, [Skill Manager](https://abu
 
 ## 📈 Overview
 
-**303 skills** across **13 categories**:
+**309 skills** across **13 categories**:
 
 | Category | Skills |
 |----------|--------|
@@ -27,7 +27,7 @@ If you use skills across more than one coding agent, [Skill Manager](https://abu
 | 📣 Marketing & SEO | 24 |
 | 📝 Writing & Research | 23 |
 | 🤝 Collaboration & Project Management | 25 |
-| ⚙️ Utility & Automation | 34 |
+| ⚙️ Utility & Automation | 40 |
 | 🔐 Security & Testing | 17 |
 | 📚 Learning & Knowledge | 16 |
 | 🎨 Creative & Design | 14 |
@@ -477,6 +477,12 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **setup-ts-deep-modules** | Wire dependency-cruiser into a TypeScript repo so each package is a deep module with a small public surface | [Source](https://github.com/mattpocock/skills/tree/main/skills/in-progress/setup-ts-deep-modules) |
 | **claude-handoff** | Hand the current conversation off to a fresh background agent that picks up the work immediately | [Source](https://github.com/mattpocock/skills/tree/main/skills/in-progress/claude-handoff) |
 | **find-skills** | Official Vercel skill that discovers and installs agent skills from the ecosystem when you ask "is there a skill for X" | [Source](https://github.com/vercel-labs/skills/tree/main/skills/find-skills) |
+| **recommerce-buy** | Find and compare new and pre-owned listings by fit and complete cost | [Source](https://github.com/budna-marketplace/recommerce/tree/main/skills/recommerce-buy) |
+| **recommerce-kits** | Assemble a compatible setup from new and pre-owned items within one budget | [Source](https://github.com/budna-marketplace/recommerce/tree/main/skills/recommerce-kits) |
+| **recommerce-inspect** | Prepare an inspection card for a new or pre-owned listing before buying | [Source](https://github.com/budna-marketplace/recommerce/tree/main/skills/recommerce-inspect) |
+| **recommerce-collect** | Plan whether a new or pre-owned item can be collected and moved | [Source](https://github.com/budna-marketplace/recommerce/tree/main/skills/recommerce-collect) |
+| **recommerce-keep** | Compare keeping or repairing an item with buying a new or pre-owned replacement | [Source](https://github.com/budna-marketplace/recommerce/tree/main/skills/recommerce-keep) |
+| **recommerce-second-look** | Recheck a new or pre-owned shortlist against newer evidence before committing | [Source](https://github.com/budna-marketplace/recommerce/tree/main/skills/recommerce-second-look) |
 
 | **danshari-skill (断舍离.skill)** | Audits every skill you have installed and archives the ones your current model, harness, or MCP servers already cover — three-way triage, blind-test evidence before any removal, and one-command restore instead of `rm` | [Source](https://github.com/swaylq/danshari-skill) |
 | **sijiao-skill (私教.skill)** | Distils any skill you want to learn into a stateful tutor — it remembers where you are, sets and grades exercises at your level, and schedules spaced review, with the ceiling honestly capped at competent | [Source](https://github.com/swaylq/sijiao-skill) |
