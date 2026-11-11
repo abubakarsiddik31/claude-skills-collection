@@ -19,7 +19,7 @@ If you use skills across more than one coding agent, [Skill Manager](https://abu
 
 ## 📈 Overview
 
-**303 skills** across **13 categories**:
+**304 skills** across **13 categories**:
 
 | Category | Skills |
 |----------|--------|
@@ -32,7 +32,7 @@ If you use skills across more than one coding agent, [Skill Manager](https://abu
 | 📚 Learning & Knowledge | 16 |
 | 🎨 Creative & Design | 14 |
 | 💼 Career & Job Search | 7 |
-| 🎥 Media & Content | 10 |
+| 🎥 Media & Content | 11 |
 | 🔬 Scientific & Research Tools | 6 |
 | 📊 Data & Analysis | 8 |
 | 📄 Document Skills | 5 |
@@ -339,6 +339,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **typefully** | Official Typefully skill for creating and scheduling social media content across X, LinkedIn, Threads, Bluesky, and Mastodon | [Source](https://github.com/typefully/agent-skills) |
 | **video-edit** | Smart router that matches video-editing intent to the right model in the RunComfy catalog — restyle, background swap, and packaging with identity and motion preservation | [Source](https://github.com/genmedia-labs/skills/tree/main/video-edit) |
 | **hyperframes** | HeyGen's agent-native HTML-to-video framework: CLI development loop with keyframes, capture, render, composition, and publishing skills | [Source](https://github.com/heygen-com/hyperframes) |
+| **framezero** | Vertical app promo videos (TikTok, Reels, Shorts) from deterministic HTML scenes: stills-first review loop, code-generated synced soundtrack, 1080p/4K60 render with Playwright and ffmpeg | [Source](https://github.com/matheusvibecoder-vibecodas/framezero/tree/main/skills/framezero) |
 
 | **ruxi-skill** | Turn any book into a playable visual novel where you play an overlooked side character, every branch cited back to the source text, output as a single playable HTML file | [Source](https://github.com/swaylq/ruxi-skill) |
 | **socialclaw** | Social media scheduling and publishing for AI agents across X, LinkedIn, Instagram, Facebook Pages, TikTok, Discord, Telegram, YouTube, Reddit, WordPress, and Pinterest via one workspace API key | [Source](https://github.com/ndesv21/socialclaw) |
