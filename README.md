@@ -342,6 +342,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 
 | **ruxi-skill** | Turn any book into a playable visual novel where you play an overlooked side character, every branch cited back to the source text, output as a single playable HTML file | [Source](https://github.com/swaylq/ruxi-skill) |
 | **socialclaw** | Social media scheduling and publishing for AI agents across X, LinkedIn, Instagram, Facebook Pages, TikTok, Discord, Telegram, YouTube, Reddit, WordPress, and Pinterest via one workspace API key | [Source](https://github.com/ndesv21/socialclaw) |
+| **youtube-transcript** | Fetch YouTube transcripts and browse YouTube search results, channels and playlists through the getyoutubetranscript.com API | [Source](https://github.com/tubeagentkit/youtube-transcript-skills) |
 ---
 
 ## 🤝 Collaboration & Project Management
