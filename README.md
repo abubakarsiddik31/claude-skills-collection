@@ -301,6 +301,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **humanizer** | Rewrites AI-sounding text so it reads like a person wrote it, without changing what it says — based on Wikipedia's "Signs of AI writing" | [Source](https://github.com/blader/humanizer) |
 | **no-ai-slop** | Edits drafts into sharper, more human writing while preserving the writer's personal voice, removing 20+ patterns of AI slop | [Source](https://github.com/petergyang/no-ai-slop/tree/main/skills/no-ai-slop) |
 | **doc-coauthoring** | Official Anthropic workflow for co-authoring docs, proposals, and specs by transferring context, refining, and testing with fresh readers | [Source](https://github.com/anthropics/skills/tree/main/skills/doc-coauthoring) |
+| **SearchPlus** | Deep web research through refutation searches and primary-source checks, with unverified points labeled | [Source](https://github.com/Explor3Universe/SearchPlus) |
 
 ---
 
