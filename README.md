@@ -19,12 +19,12 @@ If you use skills across more than one coding agent, [Skill Manager](https://abu
 
 ## 📈 Overview
 
-**303 skills** across **13 categories**:
+**306 skills** across **13 categories**:
 
 | Category | Skills |
 |----------|--------|
 | 💻 Development & Code Tools | 114 |
-| 📣 Marketing & SEO | 24 |
+| 📣 Marketing & SEO | 27 |
 | 📝 Writing & Research | 23 |
 | 🤝 Collaboration & Project Management | 25 |
 | ⚙️ Utility & Automation | 34 |
@@ -404,6 +404,9 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **reddit-automation** | Find Reddit threads where people are genuinely asking for what you offer, then draft honest, helpful replies with affiliation disclosure | [Source](https://github.com/flowkit-labs/skills/tree/main/reddit-automation) |
 | **sales** | Official Anthropic plugin for call prep, account research, pipeline review, forecasting, outreach drafts, and objection handling | [Source](https://github.com/anthropics/knowledge-work-plugins/tree/main/sales) |
 | **marketing** | Official Anthropic plugin for campaign plans, content creation, email sequences, SEO audits, brand review, and performance reports | [Source](https://github.com/anthropics/knowledge-work-plugins/tree/main/marketing) |
+| **weekly-creative-review** | Weekly Meta ads review: winners to scale, fatigued ads to cut, winning hooks/angles/formats and next creative tests | [Source](https://github.com/litvinas/meta-ads-creative-skills/tree/main/skills/weekly-creative-review) |
+| **hook-audit** | Audit Meta video ad hooks by hook rate and hold rate and write a hook test plan | [Source](https://github.com/litvinas/meta-ads-creative-skills/tree/main/skills/hook-audit) |
+| **competitor-ad-teardown** | Break down what a competitor runs, scales and tests on Meta ads and turn it into original creative briefs | [Source](https://github.com/litvinas/meta-ads-creative-skills/tree/main/skills/competitor-ad-teardown) |
 
 ---
 
