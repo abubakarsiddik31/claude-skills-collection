@@ -122,6 +122,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **web-design-guidelines** | Official Vercel skill that reviews UI code against Web Interface Guidelines for accessibility, interaction, and UX best practices | [Source](https://github.com/vercel-labs/agent-skills/tree/main/skills/web-design-guidelines) |
 | **emil-design-eng** | Emil Kowalski's design-engineering philosophy: UI polish, component design, animation decisions, and the invisible details that make software feel great | [Source](https://github.com/emilkowalski/skills/tree/main/skills/emil-design-eng) |
 | **design** | Official Anthropic plugin for design critique, design handoff, design systems, accessibility review, user research, and UX copy | [Source](https://github.com/anthropics/knowledge-work-plugins/tree/main/design) |
+| **design-reference** | Answer type scale, spacing and palette questions with values measured off real websites in the A1 gallery, through the A1 MCP server (free account) | [Source](https://github.com/a1-gallery/a1-mcp/tree/main/skills/design-reference) |
 
 ---
 
