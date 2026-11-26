@@ -339,6 +339,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **typefully** | Official Typefully skill for creating and scheduling social media content across X, LinkedIn, Threads, Bluesky, and Mastodon | [Source](https://github.com/typefully/agent-skills) |
 | **video-edit** | Smart router that matches video-editing intent to the right model in the RunComfy catalog — restyle, background swap, and packaging with identity and motion preservation | [Source](https://github.com/genmedia-labs/skills/tree/main/video-edit) |
 | **hyperframes** | HeyGen's agent-native HTML-to-video framework: CLI development loop with keyframes, capture, render, composition, and publishing skills | [Source](https://github.com/heygen-com/hyperframes) |
+| **motion-skills** | Installable skill packs for motion graphics and video: kinetic typography, explainers, data animation, lower thirds and web animation (MIT) | [Source](https://github.com/iart-ai/motion-skills) |
 
 | **ruxi-skill** | Turn any book into a playable visual novel where you play an overlooked side character, every branch cited back to the source text, output as a single playable HTML file | [Source](https://github.com/swaylq/ruxi-skill) |
 | **socialclaw** | Social media scheduling and publishing for AI agents across X, LinkedIn, Instagram, Facebook Pages, TikTok, Discord, Telegram, YouTube, Reddit, WordPress, and Pinterest via one workspace API key | [Source](https://github.com/ndesv21/socialclaw) |
