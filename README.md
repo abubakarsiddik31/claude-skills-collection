@@ -19,7 +19,7 @@ If you use skills across more than one coding agent, [Skill Manager](https://abu
 
 ## 📈 Overview
 
-**303 skills** across **13 categories**:
+**304 skills** across **13 categories**:
 
 | Category | Skills |
 |----------|--------|
@@ -34,7 +34,7 @@ If you use skills across more than one coding agent, [Skill Manager](https://abu
 | 💼 Career & Job Search | 7 |
 | 🎥 Media & Content | 10 |
 | 🔬 Scientific & Research Tools | 6 |
-| 📊 Data & Analysis | 8 |
+| 📊 Data & Analysis | 9 |
 | 📄 Document Skills | 5 |
 
 ---
@@ -258,6 +258,7 @@ Official Skills are created by Anthropic and auto-invoked when needed. You can a
 | **monte-carlo-agent-toolkit** | Official data and agent observability skills for monitoring, triage, troubleshooting, and health checks | [Source](https://github.com/monte-carlo-data/mc-agent-toolkit) |
 | **data** | Official Anthropic plugin for exploring data, writing SQL, statistical analysis, validation, and building dashboards and visualizations | [Source](https://github.com/anthropics/knowledge-work-plugins/tree/main/data) |
 | **finance** | Official Anthropic plugin for journal entries, reconciliation, variance analysis, financial statements, close management, and SOX testing | [Source](https://github.com/anthropics/knowledge-work-plugins/tree/main/finance) |
+| **feraterra-trading** | Deterministic fixed-point CLOB order dry-runs, oracle mark-pegged quoting, zero-capital flash arbitrage, and Keccak-256 ledger-tip verification on FeraTerra / Arena Exchange via 24-tool MCP gateway (`feraterra-sdk` v4.9.4) or Python SDK | [Source](https://github.com/FeraTerra/feraterra-sdk/tree/main/skills/feraterra-trading) |
 
 ---
 
